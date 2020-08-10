@@ -1,0 +1,1574 @@
+<style>
+@font-face {
+	font-family: octicons-link;
+	src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.5;
+	color: #24292e;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+.markdown-body .pl-c {
+	color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+	color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+	color: #6f42c1;
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+	color: #24292e;
+}
+
+.markdown-body .pl-ent {
+	color: #22863a;
+}
+
+.markdown-body .pl-k {
+	color: #d73a49;
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+	color: #032f62;
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+	color: #e36209;
+}
+
+.markdown-body .pl-bu {
+	color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+	color: #fafbfc;
+	background-color: #b31d28;
+}
+
+.markdown-body .pl-c2 {
+	color: #fafbfc;
+	background-color: #d73a49;
+}
+
+.markdown-body .pl-c2::before {
+	content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+	font-weight: bold;
+	color: #22863a;
+}
+
+.markdown-body .pl-ml {
+	color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+	font-weight: bold;
+	color: #005cc5;
+}
+
+.markdown-body .pl-mi {
+	font-style: italic;
+	color: #24292e;
+}
+
+.markdown-body .pl-mb {
+	font-weight: bold;
+	color: #24292e;
+}
+
+.markdown-body .pl-md {
+	color: #b31d28;
+	background-color: #ffeef0;
+}
+
+.markdown-body .pl-mi1 {
+	color: #22863a;
+	background-color: #f0fff4;
+}
+
+.markdown-body .pl-mc {
+	color: #e36209;
+	background-color: #ffebda;
+}
+
+.markdown-body .pl-mi2 {
+	color: #f6f8fa;
+	background-color: #005cc5;
+}
+
+.markdown-body .pl-mdr {
+	font-weight: bold;
+	color: #6f42c1;
+}
+
+.markdown-body .pl-ba {
+	color: #586069;
+}
+
+.markdown-body .pl-sg {
+	color: #959da5;
+}
+
+.markdown-body .pl-corl {
+	text-decoration: underline;
+	color: #032f62;
+}
+
+.markdown-body .octicon {
+	display: inline-block;
+	vertical-align: text-top;
+	fill: currentColor;
+}
+
+.markdown-body a {
+	background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+	outline-width: 0;
+}
+
+.markdown-body strong {
+	font-weight: inherit;
+}
+
+.markdown-body strong {
+	font-weight: bolder;
+}
+
+.markdown-body h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+.markdown-body img {
+	border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+.markdown-body hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+.markdown-body input {
+	font: inherit;
+	margin: 0;
+}
+
+.markdown-body input {
+	overflow: visible;
+}
+
+.markdown-body [type="checkbox"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.markdown-body * {
+	box-sizing: border-box;
+}
+
+.markdown-body input {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.markdown-body a {
+	color: #0366d6;
+	text-decoration: none;
+}
+
+.markdown-body a:hover {
+	text-decoration: underline;
+}
+
+.markdown-body strong {
+	font-weight: 600;
+}
+
+.markdown-body hr {
+	height: 0;
+	margin: 15px 0;
+	overflow: hidden;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #dfe2e5;
+}
+
+.markdown-body hr::before {
+	display: table;
+	content: "";
+}
+
+.markdown-body hr::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.markdown-body table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+	padding: 0;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body h1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.markdown-body h2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.markdown-body h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.markdown-body h4 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.markdown-body h5 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.markdown-body h6 {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.markdown-body p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+	margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+	x-list-style-type: lower-roman;
+	  list-style-type: decimal;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+	list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+	margin-left: 0;
+}
+
+.markdown-body code {
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 12px;
+}
+
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 12px;
+}
+
+.markdown-body .octicon {
+	vertical-align: text-bottom;
+}
+
+.markdown-body .pl-0 {
+	padding-left: 0 !important;
+}
+
+.markdown-body .pl-1 {
+	padding-left: 4px !important;
+}
+
+.markdown-body .pl-2 {
+	padding-left: 8px !important;
+}
+
+.markdown-body .pl-3 {
+	padding-left: 16px !important;
+}
+
+.markdown-body .pl-4 {
+	padding-left: 24px !important;
+}
+
+.markdown-body .pl-5 {
+	padding-left: 32px !important;
+}
+
+.markdown-body .pl-6 {
+	padding-left: 40px !important;
+}
+
+.markdown-body::before {
+	display: table;
+	content: "";
+}
+
+.markdown-body::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.markdown-body>*:first-child {
+	margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+	margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+	color: inherit;
+	text-decoration: none;
+}
+
+.markdown-body .anchor {
+	float: left;
+	padding-right: 4px;
+	margin-left: -20px;
+	line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+	outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.markdown-body hr {
+	height: 0.25em;
+	padding: 0;
+	margin: 24px 0;
+	background-color: #e1e4e8;
+	border: 0;
+}
+
+.markdown-body blockquote {
+	padding: 0 1em;
+	color: #6a737d;
+	border-left: 0.25em solid #dfe2e5;
+}
+
+.markdown-body blockquote>:first-child {
+	margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown-body kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font-size: 11px;
+	line-height: 10px;
+	color: #444d56;
+	vertical-align: middle;
+	background-color: #fafbfc;
+	border: solid 1px #c6cbd1;
+	border-bottom-color: #959da5;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 #959da5;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+	color: #1b1f23;
+	vertical-align: middle;
+	visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+	text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+	visibility: visible;
+}
+
+.markdown-body h1 {
+	padding-bottom: 0.3em;
+	font-size: 2em;
+	border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+	padding-bottom: 0.3em;
+	font-size: 1.5em;
+	border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h3 {
+	font-size: 1.25em;
+}
+
+.markdown-body h4 {
+	font-size: 1em;
+}
+
+.markdown-body h5 {
+	font-size: 0.875em;
+}
+
+.markdown-body h6 {
+	font-size: 0.85em;
+	color: #6a737d;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body li {
+	word-wrap: break-all;
+}
+
+.markdown-body li>p {
+	margin-top: 16px;
+}
+
+.markdown-body li+li {
+	margin-top: 0.25em;
+}
+
+.markdown-body dl {
+	padding: 0;
+}
+
+.markdown-body dl dt {
+	padding: 0;
+	margin-top: 16px;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.markdown-body dl dd {
+	padding: 0 16px;
+	margin-bottom: 16px;
+}
+
+.markdown-body table {
+	display: block;
+	width: 100%;
+	overflow: auto;
+}
+
+.markdown-body table th {
+	font-weight: 600;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+	padding: 6px 13px;
+	border: 1px solid #dfe2e5;
+}
+
+.markdown-body table tr {
+	background-color: #fff;
+	border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+	background-color: #f6f8fa;
+}
+
+.markdown-body img {
+	max-width: 100%;
+	box-sizing: content-box;
+	background-color: #fff;
+}
+
+.markdown-body img[align=right] {
+	padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+	padding-right: 20px;
+}
+
+.markdown-body code {
+	padding: 0.2em 0.4em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(27,31,35,0.05);
+	border-radius: 3px;
+}
+
+.markdown-body pre {
+	word-wrap: normal;
+}
+
+.markdown-body pre>code {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}
+
+.markdown-body .highlight {
+	margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+	margin-bottom: 0;
+	word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+	padding: 16px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.45;
+	background-color: #f6f8fa;
+	border-radius: 3px;
+}
+
+.markdown-body pre code {
+	display: inline;
+	max-width: auto;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	line-height: inherit;
+	word-wrap: normal;
+	background-color: transparent;
+	border: 0;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+	color: #005cc5;
+	border-color: #005cc5;
+}
+
+.markdown-body kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	line-height: 10px;
+	color: #444d56;
+	vertical-align: middle;
+	background-color: #fafbfc;
+	border: solid 1px #d1d5da;
+	border-bottom-color: #c6cbd1;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 #c6cbd1;
+}
+
+.markdown-body :checked+.radio-label {
+	position: relative;
+	z-index: 1;
+	border-color: #0366d6;
+}
+
+.markdown-body .task-list-item {
+	list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+	margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+	margin: 0 0.2em 0.25em -1.6em;
+	vertical-align: middle;
+}
+
+.markdown-body hr {
+	border-bottom-color: #eee;
+}
+
+</style>
+<style>
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
+<div class="markdown-body">
+
+<style>
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
+<h1>Class Syllabus: 1015 CoSci Fall 2020 - Python with Machine Learning.</h1>
+
+<h2>Instructor</h2>
+
+<ul>
+<li>Prof Philip Schlump</li>
+<li>Office: Office hours will be on-line using zoom. M,W,F from 8:00am to 9:00am and by appointment.</li>
+<li>Contact via email (pschlump@uwyo.edu) or (for emergencies only): 720-209-7888 (my cell)
+and pschlump@gmail.com (personal email).</li>
+<li>Class Time:  Lectures are online and pre-recorded.  We will have a mix of discussion and one-on-one time during class.
+If your schedule will not permit getting together during a discussion time then we will schedule individual one-on-one
+time.  I will be asking all of you when it is possible to have a 1 hour discussion - we will schedule it.</li>
+</ul>
+
+<p>If you want to call me to set up an appointment you will need to send me a SMS message
+first so that I enter your name into my contact list.  I get 10+ robo-calls a day and
+I will not answer a random number.  Text me with your name and that you are a student
+in 1015 class.</p>
+
+<h2>Overview of class</h2>
+
+<p>Lectures:  Really good research on the <em>best</em> way to teach says that
+the optimal format is to pre-record lectures and edit them.  Then to
+have one-on-one time with the students and discussion with the students
+during class.    This is what we are going to do.   I have split the
+lectures into 2 parts - there is a Pod-Cast - stuff that you need to know
+as a computer science major - but stuff that is not &ldquo;white board&rdquo; diagram
+type stuff.  The pod cast will be more entertaining and not necessarily
+a &ldquo;note taking&rdquo; type of material.  It is designed to be something that
+you can listen to while doing the dishes.  (Ok &hellip; It is not all that
+entertaining - but I will add stories and anecdotes to the podcast - and
+it is on topics like history of computing - As a person in the computer
+science field - this will help you.  If noting else knowing things that
+just don&rsquo;t work in this field is a good way to not repeat past mistakes.
+Also the pod-cast section is shorter than a full 1 hour lecture.)</p>
+
+<p>Lectures - find someplace where you can focus and take notes.  The first
+<sup>1</sup>&frasl;<sub>2</sub> of the class is on learning Python.  This follows with the book (about
+the first 200 pages).  The second <sup>1</sup>&frasl;<sub>2</sub> of the class is on Machine Learning
+- we will be using a package from Google called TensorFlow.  In both
+cases this is the &ldquo;take&rdquo; notes part of the class.  I do have handouts
+for every lecture.  Listen to the lectures <em>before</em> class discussions.</p>
+
+<p>One-on-one time.  I will schedule time to work with each and every one
+of you.   There will be group discussions.   It will be a week or so
+before we get together as a group. Group discussions will normally be
+on a Tuesday morning at 10:00AM.</p>
+
+<p>Throughout the class we will be using a tool called Visual Studio Code.
+Python 3.8 will be the version of python that we are working with.
+The exact version of Python is the Anaconda 64 bit release of python.
+We will use TensorFlow 2.x.  These tools are available in EN 4059 and EN
+4072 labs.  It is possible to remotely access these labs.  Realistically
+you should install them on your own computer.    They work on Mac,
+Windows, and Linux.   I do 80% of my development on a Linux system, 15%
+on Mac and 5% on Windows.</p>
+
+<p>Visual Studio Code: <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p>
+
+<p>Python 3.8 - Anaconda: <a href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a></p>
+
+<p>(you won&rsquo;t need this installed for a while, but&hellip;)
+TensorFlow 2.x: <a href="https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html">https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html</a></p>
+
+<h2>Required texts</h2>
+
+<p>We will be covering the first <sup>1</sup>&frasl;<sub>2</sub> of the book in learning python.  The book can be purchased from
+Amazon if you need a paper copy.<br />
+<em>Python Crash Course</em> by Eric Mathers, 2nd edition.  At this point in time amazon lists it for $17.00 and notes that it is the best selling Python book of all time.
+The Amazon link is: <a href="https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7">https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7</a></p>
+
+<p>Project 1 from the book is used in machine learning section.  We will implement project 1, then we will use machine learning to drive the game and win.
+This means that you have to get Project 1 to work (homework 14) and you should consider starting on it immediately after homework 10 is done.
+Project 1 and (homework 14 and 15) have as many points as both the midterm and the final!</p>
+
+<p>I did not order this via the UW bookstore - so if you want a print copy - you will need to order it.</p>
+
+<p>There will be outside reading also.  I will provide links or .pdf&rsquo;s.</p>
+
+<h2>Required Projects</h2>
+
+<p>Most of the class grade comes from the homework.  Specifically 20% of the semester grade is
+from the midterm and the final.</p>
+
+<h2>Final Examination</h2>
+
+<p>Final will be online and will need to be completed by the end of finals week, Midnight Dec 18th.</p>
+
+<p>The midterm will also be online.</p>
+
+<h2>Extra credit</h2>
+
+<p>No extra credit is planned at this time.</p>
+
+<div class="pagebreak"> </div>
+
+<h2>Office Hours</h2>
+
+<p>Online: Office hours are online - you can make an appointment but I will be online in zoom
+Monday, Wednesday, Friday from 8:00am till 9:00am.  Additional office hours will be
+announced.</p>
+
+<h2>Grading</h2>
+
+<p>Your grade is from the Projects, 2 Tests (Midterm and Final) and the paper.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th>Points</th>
+<th align="left">Book Chapter</th>
+<th align="center">Date</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Hw 01 - Be a programmer and hello world.</td>
+<td>100 Pts</td>
+<td align="left">Chapter 1</td>
+<td align="center">Aug 31</td>
+</tr>
+
+<tr>
+<td align="left">Hw 02 - Variables, simple calculation.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 2</td>
+<td align="center">Sep  7</td>
+</tr>
+
+<tr>
+<td align="left">Hw 03 - List Operations.  Quick-Sort.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 3 &amp; 8</td>
+<td align="center">Sep 14</td>
+</tr>
+
+<tr>
+<td align="left">Hw 04 - Arrays and other Lists Operations.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 4</td>
+<td align="center">Sep 21</td>
+</tr>
+
+<tr>
+<td align="left">Hw 05 - Logic Flow, If, While.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 5</td>
+<td align="center">Sep 28</td>
+</tr>
+
+<tr>
+<td align="left">Hw 06 - Data Structures (Dictionaries)</td>
+<td>200 Pts</td>
+<td align="left">Chapter 6</td>
+<td align="center">Oct  5</td>
+</tr>
+
+<tr>
+<td align="left">Hw 07 - User Input.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 7</td>
+<td align="center">Oct 12</td>
+</tr>
+
+<tr>
+<td align="left"></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="left">Midterm</td>
+<td>400 Pts</td>
+<td align="left"></td>
+<td align="center">Oct. 13</td>
+</tr>
+
+<tr>
+<td align="left"></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="left">Hw 08 - Objects and Methods.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 8 &amp; 9</td>
+<td align="center">Oct 19</td>
+</tr>
+
+<tr>
+<td align="left">Hw 09 - Files.  Persistence.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 10</td>
+<td align="center">Oct 26</td>
+</tr>
+
+<tr>
+<td align="left">Hw 10 - Hashing and User Passwords.</td>
+<td>200 Pts</td>
+<td align="left">Chapter 11</td>
+<td align="center">Nov  2</td>
+</tr>
+
+<tr>
+<td align="left"></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="left">Hw 11 - TensorFlow Hello World.</td>
+<td>100 Pts</td>
+<td align="left"></td>
+<td align="center">Nov  9</td>
+</tr>
+
+<tr>
+<td align="left">Hw 12 - Linear Regression.</td>
+<td>200 Pts</td>
+<td align="left"></td>
+<td align="center">Nov  16</td>
+</tr>
+
+<tr>
+<td align="left">Hw 13 - Image Classification.</td>
+<td>200 Pts</td>
+<td align="left"></td>
+<td align="center">Nov  23</td>
+</tr>
+
+<tr>
+<td align="left">Hw 14 - The Game Game.</td>
+<td>400 Pts</td>
+<td align="left">Ch 12,13,14</td>
+<td align="center">Dec   2</td>
+</tr>
+
+<tr>
+<td align="left">Hw 15 - TF Game Control.  Win the Game.</td>
+<td>400 Pts</td>
+<td align="left"></td>
+<td align="center">Dec  12</td>
+</tr>
+
+<tr>
+<td align="left"></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="left">Final</td>
+<td>400 Pts</td>
+<td align="left"></td>
+<td align="center">Dec 14..18</td>
+</tr>
+</tbody>
+</table>
+
+<p>Total: 2200</p>
+
+<table>
+<thead>
+<tr>
+<th>Points</th>
+<th>Letter Grade</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>From 3400 to 4000</td>
+<td>A</td>
+</tr>
+
+<tr>
+<td>From 3000 to 3399</td>
+<td>B</td>
+</tr>
+
+<tr>
+<td>From 2600 to 2599</td>
+<td>C</td>
+</tr>
+
+<tr>
+<td>From 2200 to 2599</td>
+<td>D</td>
+</tr>
+
+<tr>
+<td>From 0 to 2199</td>
+<td>F</td>
+</tr>
+</tbody>
+</table>
+
+<p>Yes there may be a little wiggle room in the grading.   Yes - if I write a bad
+test question that has no answer - or multiple answers - then it won&rsquo;t be counted
+in your grade.   Yes I make mistakes in grading (not too often - but mistakes
+happen - and I won&rsquo;t hold my mistakes against your grades)  If something goes
+wrong then let&rsquo;s fix it.</p>
+
+<div class="pagebreak"> </div>
+
+<h2>Overview</h2>
+
+<p>This is an approximate schedule.  Any updates will be announced.</p>
+
+<table>
+<thead>
+<tr>
+<th align="right">Wk.</th>
+<th>Date</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="right">1</td>
+<td>Aug 24</td>
+<td align="left">Lecture 1 : Class Intro</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 2 : Installation and Setup.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: Why Computer Science.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: Why This Class.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: Why This Instructor.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">2</td>
+<td>Aug 31</td>
+<td align="left">Lecture 3: Variables and data type.    Two dimensions of data.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 4: Where is data stored?  An overview of computer architecture.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: Why Test Code.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: Computer Trends - BlockChain.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">3</td>
+<td>Sep  7</td>
+<td align="left">Lecture 5: Lists and sorting data.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 6: Pre-Sorted data - trees.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: Computer Trends - Machine Learning.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: The human factor.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">4</td>
+<td>Sep 14</td>
+<td align="left">Lecture 7: Performance How fast is the code.  How correct is it.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 8: If true then do.  Control Logic.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: History of Computing:  Unix and the OS.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: What can&rsquo;t be done.  Uncomputable things.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">5</td>
+<td>Sep 21</td>
+<td align="left">Lecture 9: Associating Keys with Data.  Indexes. Dictionaries.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 10:  Input / Output and Files.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: How accounting fraud happens.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: Legal Responsibility.   Machine Learning in and the Law.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">6</td>
+<td>Sep 28</td>
+<td align="left">Lecture 11: Associating Functions and Data.  Object Oriented Programming.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 12: More on Objects.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Owl / Java / JavaScript and a single processor world.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Multi Processor World.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">7</td>
+<td>Oct  5</td>
+<td align="left">Lecture 13: Alternatives to objects.  Interfaces / Traits / Functional / Prototype</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 14: Using git (github.com/gitlab.com etc)</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Remote work / Remote Study.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Strategy and beating the competition.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">8</td>
+<td>Oct 12</td>
+<td align="left">Lecture 15:  Software engendering process.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 16:  Software testing.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Making Money with Computers.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Making Money without Computers.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">9</td>
+<td>Oct 19</td>
+<td align="left">Lecture 17:  What is hashing.  What is a blockchain.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 18:  Files and running programs at the command line.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Who is the &ldquo;al&rdquo; in Algebra and Algorithm.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  From slow to fast.   Algorithms are more important than languages.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">10</td>
+<td>Oct 26</td>
+<td align="left">Lecture 20:  Machine Learning and Tensors -what is a Tensor?</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 20:  Fitting of data.   Good data / bad data.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Univ. of Wyoming WABL Research.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Univ. of Wyoming AI Research.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">11</td>
+<td>Nov  2</td>
+<td align="left">Lecture 21:  Encoding of data - one hot.  Image classification.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 22:  Feature Engendering.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Costs of mistakes.  What are the costs of software defects.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Costs of security. What is security worth.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">12</td>
+<td>Nov  9</td>
+<td align="left">Lecture 23: Building our &ldquo;game&rdquo;.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 24: Interfacing to our &ldquo;game&rdquo;</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast:  Rise of the Robots.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Pod Cast: The future is bright..</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">13</td>
+<td>Nov 16</td>
+<td align="left">Lecture 25: Failures in training.  Problems with Machine Learning.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 26: Other kinds of machine learning.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">14</td>
+<td>Nov 23</td>
+<td align="left">Lecture 27: Testing with fuzzy data.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 28: Impact of Machine Learning.  The 2nd Industrial Revolution.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">15</td>
+<td>Nov 30</td>
+<td align="left">Lecture 29: More on our game and ML - Automated Survival in a Hostile Environment.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 30: Still more on training and auto-programming.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">16</td>
+<td>Dec  7</td>
+<td align="left">Lecture 31: Make up lecture.  To be determined.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 32: Make up lecture.  To be determined.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="right">17</td>
+<td>Dec 14</td>
+<td align="left">Lecture 33: Where to from this point forward.  At UW / In Life.</td>
+</tr>
+
+<tr>
+<td align="right"></td>
+<td></td>
+<td align="left">Lecture 34: Final Review.</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Late work.</h2>
+
+<p>Generally it is a good idea to get the homework done one time.   Normally I take 10% off for each
+week day that a homework is late until it is worth only 40% of the original points.  The last day
+for turning in homework is Dec 12.</p>
+
+<h2>Original work policy (in this class).</h2>
+
+<p>Homework is turned in on-line via file upload.   The homework is really really important.  Do your own
+work.  That is how you learn.  If you use google or other web sources then note where you got the
+code or answer from.  If you copy from the web then expect that on a one-on-one basis I will be asking
+you how the code works.   Help each other.  It is legitimate in this class (it may not be in other
+classes) for you to help your fellow student.   If you do then note it in your code.  Code is very
+unique to each person.  If two of you turn in the same code - that is very bad.  If you note that
+you worked on it together - and then I ask each of you to explain how it works - that alright.
+If you have questions about this - call me, or email me.</p>
+
+<h2>Title IX – Duty to Report</h2>
+
+<p>The University of Wyoming faculty are committed to helping create a safe learning environment for all students and for
+the university as a whole. If you have experienced any form of gender or sex-based discrimination or harassment,
+including sexual assault, sexual harassment, relationship violence, or stalking, know that help and support are
+available. The University has staff members trained to support survivors in navigating campus life, accessing health and
+counseling services, providing academic and housing accommodations, and more. The University strongly encourages all
+students to report any such incidents to the University. Please be aware that all University of Wyoming employees,
+including student staff, are required to report all Title IX related concerns to the Title IX Coordinator or their
+supervisor. This means that if you tell a faculty member about a situation of sexual harassment or sexual violence, or
+other related misconduct, the faculty member must share that information with the University’s Title IX Coordinator.
+UW’s Title IX Coordinator is Jim Osborn (Manager of Investigations, Equal Opportunity Report and Response). He is
+located in Room 320 of the Bureau of Mines Building, and can be reached via email at report-it@uwyo.edu or via phone at
+766-5200 or 766-5228. For more information, go to:
+<a href="http://www.uwyo.edu/reportit/learn-more/faqs.html">http://www.uwyo.edu/reportit/learn-more/faqs.html</a> .</p>
+
+<h2>Attendance and Absence policies</h2>
+
+<p>Attendance is critical.  The only way to know what you need to know is by
+attending class. If you have an excused absence that is fine, try to get notes from the day you missed from one of your
+classmates. Just don&rsquo;t skip!</p>
+
+<h2>Classroom Behavior Policy</h2>
+
+<p>At all times, treat your presence in the classroom and your enrollment in this course as you would a job. Act
+professionally, arrive on time, pay attention, complete your work in a timely and professional manner. You will be
+respectful towards your classmates and instructor. Spirited debate and disagreement are to be expected in any classroom
+and all views will be heard fully, but at all times we will behave civilly and with respect towards one another.
+Personal attacks, offensive language, name-calling, and dismissive gestures are not warranted in a learning atmosphere.
+As the instructor, I have the right to dismiss you from the classroom.</p>
+
+<h2>Classroom Statement on Diversity</h2>
+
+<p>The University of Wyoming values an educational environment that is diverse, equitable, and inclusive. The diversity
+that students and faculty bring to class, including age, country of origin, culture, disability, economic class,
+ethnicity, gender identity, immigration status, linguistic, political affiliation, race, religion, sexual orientation,
+veteran status, worldview, and other social and cultural diversity is valued, respected, and considered a resource for
+learning.</p>
+
+<h2>Disability Support</h2>
+
+<p>If you have a physical, learning, sensory or psychological disability and require accommodations, please register as
+soon as possible and provide documentation of your disability to Disability Support Services (DSS), Room 109 Knight
+Hall. You may also contact DSS at (307) 766-3073 or udss@uwyo.edu. Visit their website for more
+information: www.uwyo.edu/udss</p>
+
+<h2>Academic Dishonesty Policies</h2>
+
+<p>Don&rsquo;t cheat on the exams. I expect you to take full advantage of all the online resources you can get your hands on.
+That includes Stack Overflow, Github etc. If you do use someone else&rsquo;s code, put in a link to where you found it.
+Don&rsquo;t cheat on the projects - do you own work.  Most of the learning in the class is from <em>doing</em> the projects.</p>
+
+<h2>Substantive changes to syllabus</h2>
+
+<p>All deadlines, requirements, and course structure are subject to change if deemed necessary by the instructor. Students
+will be notified verbally in class, on our WyoCourses page announcement, and via email of these changes. I do travel
+during the semester. Class could be canceled or assignments due dates changed.</p>
+
+<h1>Copyright</h1>
+
+<p>Copyright &copy; University of Wyoming, 2020.</p>
+
+</div>
+
