@@ -8,36 +8,36 @@
 ## Instructor
 
 - Prof Philip Schlump
-- Office: Office hours will be on-line using zoom. M,W,F from 8:00am to 9:00am and by appointment.  The Zoom link to join will be emailed out to the class.
+- Office: Office hours will be online using Zoom. M,W,F from 8:00am to 9:00am and by appointment.  The Zoom link to join will be emailed out to the class.
 - Contact via email (pschlump@uwyo.edu) or (for emergencies only): 720-209-7888 (my cell)
 and pschlump@gmail.com (personal email).
 - Class Time:  Lectures are online and pre-recorded.  We will have a mix of discussion and one-on-one time during class.
-If your schedule will not permit getting together during a discussion time then we will schedule individual one-on-one 
+If your schedule will not permit getting together during a discussion time, then we will schedule individual one-on-one 
 time.  I will be asking all of you when it is possible to have a 1 hour discussion - we will schedule it.
 
-If you want to call me to set up an appointment you will need to send me a SMS message
+If you call me to set up an appointment, you will need to send me a SMS message
 first so that I enter your name into my contact list.  I get 10+ robo-calls a day and
 I will not answer a random number.  Text me with your name and that you are a student
 in 1015 class.
 
-## Overview of class
+## Overview of the class
 
 Lectures:  Really good research on the *best* way to teach says that
 the optimal format is to pre-record lectures and edit them.  Then to
 have one-on-one time with the students and discussion with the students
 during class.    This is what we are going to do.   I have split the
-lectures into 2 parts - there is a Pod-Cast - stuff that you need to know
+lectures into 2 parts - there is a podcast - stuff that you need to know
 as a computer science major - but stuff that is not "white board" diagram
-type stuff.  The pod cast will be more entertaining and not necessarily
-a "note taking" type of material.  It is designed to be something that
+type stuff.  The podcast will be more entertaining and not necessarily
+"note taking" type of material.  It is designed to be something that
 you can listen to while doing the dishes.  (Ok ... It is not all that
 entertaining - but I will add stories and anecdotes to the podcast - and
 it is on topics like history of computing - As a person in the computer
-science field - this will help you.  If noting else knowing things that
+science field - this will help you.  If nothing else, knowing things that
 just don't work in this field is a good way to not repeat past mistakes. 
-Also the pod-cast section is shorter than a full 1 hour lecture.)
+Also the podcast section is shorter than a full 1 hour lecture.)
 
-Lectures - find someplace where you can focus and take notes.  The first
+Lectures - Find someplace where you can focus and take notes.  The first
 1/2 of the class is on learning Python.  This follows with the book (about
 the first 200 pages).  The second 1/2 of the class is on Machine Learning
 - we will be using a package from Google called TensorFlow.  In both
@@ -47,11 +47,11 @@ for every lecture.  Listen to the lectures *before* class discussions.
 One-on-one time.  I will schedule time to work with each and every one
 of you.   There will be group discussions.   It will be a week or so
 before we get together as a group. Group discussions will normally be
-on a Tuesday morning at 10:00AM.
+on a Tuesday morning at 10:00am.
 
 Throughout the class we will be using a tool called Visual Studio Code.
-Python 3.8 will be the version of python that we are working with.
-The exact version of Python is the Anaconda 64 bit release of python.
+Python 3.8 will be the version of Python that we are working with.
+The exact version of Python is the Anaconda 64 bit release of Python.
 We will use TensorFlow 2.x.  These tools are available in EN 4059 and EN
 4072 labs.  It is possible to remotely access these labs.  Realistically
 you should install them on your own computer.    They work on Mac,
@@ -63,22 +63,22 @@ Visual Studio Code: https://code.visualstudio.com/download
 
 Python 3.8 - Anaconda: https://www.anaconda.com/products/individual
 
-(you won't need this installed for a while, but...)
+(You won't need this installed for a while, but...)
 TensorFlow 2.x: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
 
 
 ## Required texts
 
-We will be covering the first 1/2 of the book in learning python
+We will be covering the first 1/2 of the book in learning Python
 (pages 1 ... 318).  The book can be purchased from Amazon if you need
 a paper copy.  *Python Crash Course* by Eric Mathers, 2nd edition.
-At this point in time amazon lists it for $17.00 and notes that it
+At this point in time Amazon lists it for $17.00 and notes that it
 is the best selling Python book of all time.  The Amazon link is:
 [https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=pd_sim_14_7)
 
-Project 1 from the book is used in machine learning section.  We will
+Project 1 from the book is used in the machine learning section.  We will
 implement project 1, then we will use machine learning to drive the game
-and win.  This means that you have to get Project 1 to work (homework
+and win.  This means that you have to get project 1 to work (homework
 14) and you should consider starting on it immediately after homework
 10 is done.  Project 1 and (homework 14 and 15) have as many points as
 both the midterm and the final!
@@ -86,7 +86,7 @@ both the midterm and the final!
 I did not order this via the UW bookstore - so if you want a print copy -
 you will need to order it.
 
-There will be outside reading also.  I will provide links or .pdf's.
+There will be outside reading also.  I will provide links or .pdfs.
 
 ## Required Projects
 
@@ -95,7 +95,7 @@ from the midterm and the final.
 
 ## Final Examination
 
-Final will be online and will need to be completed by the end of finals week, Midnight Dec 18th.
+The final will be online and will need to be completed by the end of finals week, Midnight Dec 18th.
 
 The midterm will also be online.
 
@@ -107,13 +107,13 @@ No extra credit is planned at this time.
 
 ## Office Hours 
 
-Online: Office hours are online - you can make an appointment but I will be online in zoom
+Online: Office hours are online - you can make an appointment but I will be online in Zoom
 Monday, Wednesday, Friday from 8:00am till 9:00am.  Additional office hours will be
 announced.
 
 ## Grading
 
-Your grade is from the Projects, 2 Tests (Midterm and Final) and the paper.
+Your grade is from the Projects, 2 Tests (Midterm and Final).
 
 | Title                                         | Points  | Book Chapter  | Date    |
 |:----------------------------------------------|---------|:--------------|:-------:|
@@ -134,12 +134,12 @@ Your grade is from the Projects, 2 Tests (Midterm and Final) and the paper.
 | Hw 11 - TensorFlow Hello World.               | 100 Pts |               | Nov  9  |
 | Hw 12 - Linear Regression.                    | 200 Pts |               | Nov  16 |
 | Hw 13 - Image Classification.                 | 200 Pts |               | Nov  23 |
-| Hw 14 - The Game Game.                        | 400 Pts | Ch 12,13,14   | Dec   2 |
+| Hw 14 - The Game &&Game.                      | 400 Pts | Ch 12,13,14   | Dec   2 |
 | Hw 15 - TF Game Control.  Win the Game.       | 400 Pts |               | Dec  12 |
 |                                               |         |               |         |
 | Final                                         | 400 Pts |              | Dec 14..18 |
 
-Total: 2200
+Total: 4000
 
 | Points                                      | Letter Grade  |
 |---------------------------------------------|---------------|
@@ -153,7 +153,7 @@ Total: 2200
 Yes there may be a little wiggle room in the grading.   Yes - if I write a bad
 test question that has no answer - or multiple answers - then it won't be counted
 in your grade.   Yes I make mistakes in grading (not too often - but mistakes
-happen - and I won't hold my mistakes against your grades)  If something goes
+happen - and I won't hold my mistakes against your grades).  If something goes
 wrong then let's fix it.
 
 
@@ -175,15 +175,15 @@ This is an approximate schedule.  Any updates will be announced.
 |     |        | Pod Cast: Why This Class.                                                            |
 |     |        | Pod Cast: Why This Instructor.                                                       |
 |     |        |                                                                                      |
-| 2   | Aug 31 | Lecture 3: Variables and data type.    Two dimensions of data.                       |
+| 2   | Aug 31 | Lecture 3: Variables and Data Type.    Two dimensions of data.                       |
 |     |        | Lecture 4: Where is data stored?  An overview of computer architecture.              |
 |     |        | Pod Cast: Why Test Code.                                                             |
 |     |        | Pod Cast: Computer Trends - BlockChain.                                              |
 |     |        |                                                                                      |
-| 3   | Sep  7 | Lecture 5: Lists and sorting data.                                                   |
-|     |        | Lecture 6: Pre-Sorted data - trees.                                                  |
+| 3   | Sep  7 | Lecture 5: Lists and Sorting Data.                                                   |
+|     |        | Lecture 6: Pre-Sorted Data - Trees.                                                  |
 |     |        | Pod Cast: Computer Trends - Machine Learning.                                        |
-|     |        | Pod Cast: The human factor.                                                          |
+|     |        | Pod Cast: The Human Factor.                                                          |
 |     |        |                                                                                      |
 | 4   | Sep 14 | Lecture 7: Performance How fast is the code.  How correct is it.                     |
 |     |        | Lecture 8: If true then do.  Control Logic.                                          |
@@ -193,50 +193,50 @@ This is an approximate schedule.  Any updates will be announced.
 | 5   | Sep 21 | Lecture 9: Associating Keys with Data.  Indexes. Dictionaries.                       |
 |     |        | Lecture 10:  Input / Output and Files.                                               |
 |     |        | Pod Cast: How accounting fraud happens.                                              |
-|     |        | Pod Cast: Legal Responsibility.   Machine Learning in and the Law.                   |
+|     |        | Pod Cast: Legal Responsibility.   Machine Learning and the Law.                      |
 |     |        |                                                                                      |
 | 6   | Sep 28 | Lecture 11: Associating Functions and Data.  Object Oriented Programming.            |
 |     |        | Lecture 12: More on Objects.                                                         |
-|     |        | Pod Cast:  Owl / Java / JavaScript and a single processor world.                     |
+|     |        | Pod Cast:  Owl / Java / JavaScript and a Single Processor World.                     |
 |     |        | Pod Cast:  Multi Processor World.                                                    |
 |     |        |                                                                                      |
 | 7   | Oct  5 | Lecture 13: Alternatives to objects.  Interfaces / Traits / Functional / Prototype   | 
-|     |        | Lecture 14: Using git (github.com/gitlab.com etc)                                    |
-|     |        | Pod Cast:  Remote work / Remote Study.                                               |
+|     |        | Lecture 14: Using `git` (https://github.com or https//gitlab.com etc.)               |
+|     |        | Pod Cast:  Remote Work / Remote Study.                                               |
 |     |        | Pod Cast:  Strategy and beating the competition.                                     |
 |     |        |                                                                                      |
-| 8   | Oct 12 | Lecture 15:  Software engendering process.                                           |
-|     |        | Lecture 16:  Software testing.                                                       |
+| 8   | Oct 12 | Lecture 15:  Software &&engendering process.                                         |
+|     |        | Lecture 16:  Software Testing.                                                       |
 |     |        | Pod Cast:  Making Money with Computers.                                              |
 |     |        | Pod Cast:  Making Money without Computers.                                           |
 |     |        |                                                                                      |
 | 9   | Oct 19 | Lecture 17:  What is hashing.  What is a blockchain.                                 |
 |     |        | Lecture 18:  Files and running programs at the command line.                         | 
-|     |        | Pod Cast:  Who is the "al" in Algebra and Algorithm.                                 |
+|     |        | Pod Cast:  Who is the "Al" in Algebra and Algorithm.                                 |
 |     |        | Pod Cast:  From slow to fast.   Algorithms are more important than languages.        |
 |     |        |                                                                                      |
-| 10  | Oct 26 | Lecture 20:  Machine Learning and Tensors -what is a Tensor?                         |
-|     |        | Lecture 20:  Fitting of data.   Good data / bad data.                                |
+| 10  | Oct 26 | Lecture 20:  Machine Learning and Tensors -What is a Tensor?                         |
+|     |        | Lecture 20:  Fitting of Data.   Good Data / Bad Data.                                |
 |     |        | Pod Cast:  Univ. of Wyoming WABL Research.                                           |
 |     |        | Pod Cast:  Univ. of Wyoming AI Research.                                             |
 |     |        |                                                                                      |
-| 11  | Nov  2 | Lecture 21:  Encoding of data - one hot.  Image classification.                      |
-|     |        | Lecture 22:  Feature Engendering.                                                    |
+| 11  | Nov  2 | Lecture 21:  Encoding of Data - one hot.  Image Classification.                      |
+|     |        | Lecture 22:  Feature Engineering                                                     |
 |     |        | Pod Cast:  Costs of mistakes.  What are the costs of software defects.               |
 |     |        | Pod Cast:  Costs of security. What is security worth.                                |
 |     |        |                                                                                      |
-| 12  | Nov  9 | Lecture 23: Building our "game".                                                     |
-|     |        | Lecture 24: Interfacing to our "game"                                                |
+| 12  | Nov  9 | Lecture 23: Building our "game."                                                     |
+|     |        | Lecture 24: Interfacing to our "game."                                               |
 |     |        | Pod Cast:  Rise of the Robots.                                                       |
-|     |        | Pod Cast: The future is bright..                                                     |
+|     |        | Pod Cast: The future is bright.                                                      |
 |     |        |                                                                                      |
 | 13  | Nov 16 | Lecture 25: Failures in training.  Problems with Machine Learning.                   |
-|     |        | Lecture 26: Other kinds of machine learning.                                         |
+|     |        | Lecture 26: Other kinds of Machine Learning.                                         |
 |     |        |                                                                                      |
 | 14  | Nov 23 | Lecture 27: Testing with fuzzy data.                                                 |
 |     |        | Lecture 28: Impact of Machine Learning.  The 2nd Industrial Revolution.              |
 |     |        |                                                                                      |
-| 15  | Nov 30 | Lecture 29: More on our game and ML - Automated Survival in a Hostile Environment.   |
+| 15  | Nov 30 | Lecture 29: More on our "game" and ML - Automated Survival in a Hostile Environment. |
 |     |        | Lecture 30: Still more on training and auto-programming.                             |
 |     |        |                                                                                      |
 | 16  | Dec  7 | Lecture 31: Make up lecture.  To be determined.                                      |  
@@ -259,20 +259,20 @@ This is an approximate schedule.  Any updates will be announced.
 
 ## Late work.
 
-Generally it is a good idea to get the homework done one time.   Normally I take 10% off for each
+Generally it is a good idea to get the homework done on time.   Normally I take 10% off for each
 week day that a homework is late until it is worth only 40% of the original points.  The last day
 for turning in homework is Dec 12.  
 
 ## Original work policy (in this class).
 
-Homework is turned in on-line via file upload.   The homework is really really important.  Do your own 
-work.  That is how you learn.  If you use google or other web sources then note where you got the
-code or answer from.  If you copy from the web then expect that on a one-on-one basis I will be asking
-you how the code works.   Help each other.  It is legitimate in this class (it may not be in other 
-classes) for you to help your fellow student.   If you do then note it in your code.  Code is very
+Homework is turned in online via file upload.   The homework is really, really important.  Do your own 
+work.  That is how you learn.  If you use google or other web sources, then note where you got the
+code or answer from.  If you copy from the web, then expect that on a one-on-one basis I will be asking
+you how the code works.   Help each other.  It is legitimate in this class, (it may not be in other 
+classes), for you to help your fellow student.   If you do then note it in your code.  Code is very
 unique to each person.  If two of you turn in the same code - that is very bad.  If you note that
-you worked on it together - and then I ask each of you to explain how it works - that alright.
-If you have questions about this - call me, or email me.
+you worked on it together - and then I ask each of you to explain how it works - that's alright.
+If you have questions about this email me.
 
                          
 
@@ -294,11 +294,11 @@ located in Room 320 of the Bureau of Mines Building, and can be reached via emai
 
 ## Attendance and Absence policies
 
-Attendance is critical.  The only way to know what you need to know is by
-attending class. If you have an excused absence that is fine, try to get notes from the day you missed from one of your
-classmates. Just don't skip!
+You have to watch the lectures and listen to the podcast.
 
 ## Classroom Behavior Policy
+
+(This section is not really applicable to this class - but required by UW)
 
 At all times, treat your presence in the classroom and your enrollment in this course as you would a job. Act
 professionally, arrive on time, pay attention, complete your work in a timely and professional manner. You will be
