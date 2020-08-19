@@ -141,6 +141,10 @@ Your grade is from the Projects, 2 Tests (Midterm and Final).
 
 Total: 4000
 
+<div class="pagebreak"> </div>
+
+## Letter Grades
+
 | Points                                      | Letter Grade  |
 |---------------------------------------------|---------------|
 | From 3400 to 4000                           | A |
@@ -163,7 +167,7 @@ wrong then let's fix it.
 
 <div class="pagebreak"> </div>
 
-## Overview
+## Class Schedule
 
 This is an approximate schedule.  Any updates will be announced.
 
@@ -294,11 +298,28 @@ located in Room 320 of the Bureau of Mines Building, and can be reached via emai
 
 ## Attendance and Absence policies
 
-You have to watch the lectures and listen to the podcast.
+You have to watch the lectures and listen to the podcast.  This class has prerecorded lecture and audio
+that you are expected to watch/listen to.   This is your "required" attendance.
+
+### SARS-Cov-2 / COVID-19 Related Policies 
+
+During this pandemic, you must abide by all UW policies and public health rules
+put forward by the City of Laramie (or by Natrona County if at UW-Casper), the University of Wyoming
+and the State of Wyoming to promote the health and well-being of fellow students and your own personal
+self-care. Please review our current policy.
+As with other disruptive behaviors, we have the right to dismiss you from the classroom (Zoom and
+physical), or other class activities if you fail to abide by these COVID-19 policies. These behaviors will
+be referred to the Dean of Students Office using the UWYO Cares Reporting Form for Student Code of
+Conduct processes.
+
+### Syllabus Changes
+
+I will alert you to any possible course format changes in response to UW decisions
+about community safety during the semester.
 
 ## Classroom Behavior Policy
 
-(This section is not really applicable to this class - but required by UW)
+(This section is not really applicable to this class - we will have class discussions that this applies to)
 
 At all times, treat your presence in the classroom and your enrollment in this course as you would a job. Act
 professionally, arrive on time, pay attention, complete your work in a timely and professional manner. You will be
