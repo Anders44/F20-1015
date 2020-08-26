@@ -1,0 +1,15 @@
+2020-08-24T1841_Grades-Fall_2020_Intro_Prog_Fr_Data_Science-COSC-1015-01.csv
+2020-08-25T1330_Grades-Fall_2020_Intro_Prog_Fr_Data_Science-COSC-1015-01.csv
+Lectures
+Makefile
+PodCast
+README.md
+css
+email2.txt
+md.css
+note.5
+open.1
+syllabus.html
+syllabus.html.pdf
+syllabus.md
+test2.txt
