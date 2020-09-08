@@ -1,5 +1,7 @@
 import csv
 
+look_for = "Philip Schlump"
+
 # open file in read mode
 with open('phone-book.csv', 'r') as read_ref:
     # csv.reader() takes a file_ref as an input.
@@ -12,5 +14,9 @@ with open('phone-book.csv', 'r') as read_ref:
     list_of_tuples = list(map(tuple, csv_reader))
 
     # display all rows of csv
-    print(list_of_tuples)
+    # print(list_of_tuples)
+
+    for rr in list_of_tuples:
+        if rr[0] == look_for:
+            print ( f"found {look_for} with phone number {rr[1]}" )
 
