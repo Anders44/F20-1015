@@ -1,5 +1,19 @@
 # Lecture 06 - More on lists
 
+YouTube:
+
+[Lists and Tuples - Part 0 of 4 - Lecture 6 intro - https://youtu.be/FvP-Qz3qNxY](https://youtu.be/FvP-Qz3qNxY)<br>
+[Lists and Tuples - Part 1 of 4 - Lecture 6 - https://youtu.be/e9sK8-vpQT0](https://youtu.be/e9sK8-vpQT0)<br>
+[Lists and Tuples - Part 2 of 4 - Lecture 6 Case Analysis - https://youtu.be/Hu6OAmVd8Gk](https://youtu.be/Hu6OAmVd8Gk)<br>
+[Lists and Tuples - Part 3 of 4 - Lecture 6 visulization - https://youtu.be/832dKo12UAo](https://youtu.be/832dKo12UAo)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Lists and Tuples - Part 0 of 4 - Lecture 6 intro](http://uw-s20-2015.s3.amazonaws.com/1015-L-06-pt0-tuples-and-lists.mp4)<br>
+[Lists and Tuples - Part 1 of 4 - Lecture 6](http://uw-s20-2015.s3.amazonaws.com/1015-L-06-pt1-lists-and-tuples.mp4)<br>
+[Lists and Tuples - Part 2 of 4 - Lecture 6 Case Analysis](http://uw-s20-2015.s3.amazonaws.com/1015-L-06-pt2-case-analysis.mp4)<br>
+[Lists and Tuples - Part 3 of 4 - Lecture 6 visulization](http://uw-s20-2015.s3.amazonaws.com/1015-L-06-pt3-search-visualization.mp4)<br>
+
 ## Lists v.s. Tuples
 
 ```
