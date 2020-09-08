@@ -121,3 +121,8 @@ data.
 
 
 
+## Homework Part 2 - The Binary Search
+
+![image-of-binary-search.png](image-of-binary-search.png)
+
+

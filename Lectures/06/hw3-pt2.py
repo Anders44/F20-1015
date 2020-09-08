@@ -2,6 +2,10 @@ import csv
 
 look_for = "Philip Schlump"
 
+# binary_search performs a recursive binary search through a list of
+# tuples where the [0] in the tuple is the "key" - looking for the 
+# value passed in 'look_for'.  In this case the name.
+# It will return a tuple of ("","") when not found.
 def binary_search ( list_of_tuples, look_for ):
     if len(list_of_tuples) < 1:
         return ("","")
@@ -18,9 +22,9 @@ def binary_search ( list_of_tuples, look_for ):
     if look_for < list_of_tuples[mid][0]:
         # print ( f"less than {look_for} passing {list_of_tuples[0:mid]}" )
         return binary_search ( list_of_tuples[0:mid], look_for )
-    if look_for > list_of_tuples[mid][0]:
+    if look_for > list_of_tuples[mid][0] and (mid+1) < len(list_of_tuples):
         # print ( f"greater than {look_for} passing {list_of_tuples[mid:]}" )
-        return binary_search ( list_of_tuples[mid:], look_for )
+        return binary_search ( list_of_tuples[mid+1:], look_for )
     return ("","")
 
 # open file in read mode
