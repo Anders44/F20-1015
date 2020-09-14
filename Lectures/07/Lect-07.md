@@ -2,6 +2,13 @@
 
 ## Lectures
 
+[How if works in Python - https://youtu.be/wRNHlIesz_U](https://youtu.be/wRNHlIesz_U)<br>
+[VSCode with Tests - https://youtu.be/_ovuvRjx_bE](https://youtu.be/_ovuvRjx_bE)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[How if works in Python](http://uw-s20-2015.s3.amazonaws.com/1015-L-07-If-pt1.mp4)<br>
+[VSCode with Tests](http://uw-s20-2015.s3.amazonaws.com/1015-L-07-pt2-automated-tests.mp4)<br>
 
 
 ## Podcast
