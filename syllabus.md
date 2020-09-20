@@ -205,7 +205,7 @@ This is an approximate schedule.  Any updates will be announced.
 |     |        | Pod Cast:  Multi Processor World.                                                    |
 |     |        |                                                                                      |
 | 7   | Oct  5 | Lecture 13: Alternatives to objects.  Interfaces / Traits / Functional / Prototype   | 
-|     |        | Lecture 14: Using `git` (https://github.com or https//gitlab.com etc.)               |
+|     |        | Lecture 14: Using `git` (https://github.com or https//gitlab.com etc.)               |	(done)
 |     |        | Pod Cast:  Remote Work / Remote Study.                                               |
 |     |        | Pod Cast:  Strategy and beating the competition.                                     |
 |     |        |                                                                                      |
