@@ -14,6 +14,17 @@ From Amazon S3 - for download (same as youtube videos)
 [Accessing Dictionaries](http://uw-s20-2015.s3.amazonaws.com/1015-L-09-pt3-accessing-dictionaries.mp4)<br>
 [Syntax Review](http://uw-s20-2015.s3.amazonaws.com/1015-L-09-pt4-syntax-review.mp4)<br>
 
+
+## PodCast
+
+[1015 PodCast Financial Fraud - https://youtu.be/EL0_m14j2k0](https://youtu.be/EL0_m14j2k0)<br>
+[1015 PodCast Making-Money-With-Computers - https://youtu.be/T4IhWlscX3o](https://youtu.be/T4IhWlscX3o)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[1015 PodCast Financial Fraud](http://uw-s20-2015.s3.amazonaws.com/1015-PodCast-Financial-Fraud.mp3)<br>
+[1015 PodCast Making-Money-With-Computers](http://uw-s20-2015.s3.amazonaws.com/1015-Podcast-Making-Money-With-Computers.mp3)<br>
+
 ## First how you do this when you don't have a dictionary
 
 Without python dictionaries:
