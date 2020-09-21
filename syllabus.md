@@ -195,9 +195,9 @@ This is an approximate schedule.  Any updates will be announced.
 |     |        | Pod Cast: What can't be done.  Uncomputable things.                                  |
 |     |        |                                                                                      |
 | 5   | Sep 21 | Lecture 9: Associating Keys with Data.  Indexes. Dictionaries.                       |
-|     |        | Lecture 10:  Input / Output and Files.                                               |
+|     |        | Lecture 10:  Input / Output and Files.                                               | 
 |     |        | Pod Cast: How accounting fraud happens.                                              |
-|     |        | Pod Cast: Legal Responsibility.   Machine Learning and the Law.                      |
+|     |        | Pod Cast: Legal Responsibility.   Machine Learning and the Law.                      | (tbd)
 |     |        |                                                                                      |
 | 6   | Sep 28 | Lecture 11: Associating Functions and Data.  Object Oriented Programming.            |
 |     |        | Lecture 12: More on Objects.                                                         |
@@ -211,7 +211,7 @@ This is an approximate schedule.  Any updates will be announced.
 |     |        |                                                                                      |
 | 8   | Oct 12 | Lecture 15:  Software &&engendering process.                                         |
 |     |        | Lecture 16:  Software Testing.                                                       |
-|     |        | Pod Cast:  Making Money with Computers.                                              |
+|     |        | Pod Cast:  Making Money with Computers.                                              | (done)
 |     |        | Pod Cast:  Making Money without Computers.                                           |
 |     |        |                                                                                      |
 | 9   | Oct 19 | Lecture 17:  What is hashing.  What is a blockchain.                                 |
@@ -243,10 +243,7 @@ This is an approximate schedule.  Any updates will be announced.
 | 15  | Nov 30 | Lecture 29: More on our "game" and ML - Automated Survival in a Hostile Environment. |
 |     |        | Lecture 30: Still more on training and auto-programming.                             |
 |     |        |                                                                                      |
-| 16  | Dec  7 | Lecture 31: Make up lecture.  To be determined.                                      |  
-|     |        | Lecture 32: Make up lecture.  To be determined.                                      |
-|     |        |                                                                                      |
-| 17  | Dec 14 | Lecture 33: Where to from this point forward.  At UW / In Life.                      |
+| 16  | Dec  7 | Lecture 33: Where to from this point forward.  At UW / In Life.                      |
 |     |        | Lecture 34: Final Review.                                                            |
 
 
