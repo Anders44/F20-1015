@@ -2,6 +2,7 @@
 # Lecture 12 - Basic Command Line Commands
 
 ## Basic Linux Commands
+
 These are the commands at the command line that will get you through most situations.
 
 ## Getting help in Linux
@@ -12,18 +13,18 @@ These are the commands at the command line that will get you through most situat
 
 Navigating filesystems and managing directories:
 
+- pwd – current directory
 - cd – change directory
-- pwd – confirm current directory
-- ln – make links and symlinks to files and directories
 - mkdir – make new directory
 - rmdir – remove directories in Linux
+- ln – make links and symlinks to files and directories
 
-# Linux Shell Commands
+## Linux Shell Commands
 
 - clear – clear screen
 - history – show history of previous commands
 
-#Time and Date commands
+## Time and Date commands
 
 - date – show current date and time
 - cal - show a calendar
@@ -51,14 +52,14 @@ Most of important configuration in Linux is in clear text files, these commands 
 - tail – show the last 10 lines of text file (any number can be specified)
 - grep – search for patterns in text files
 - vi - editor used on most systems.
-- awk - a programing language for text.
+- awk - a programming language for text.
 
 ## Networking commands in Linux
 
-Most useful commands for inspecting network setup and exploring network connections and ports:
+Figure out your network setup.
 
-- hostname – show or set server hostname
-- ifconfig – show and set IP addresses (found almost everywhere)
+- hostname – your computers hostname - Often this is used on the network as the name.
+- ifconfig – show and set IP addresses (found almost everywhere) (ipconfig on windows)
 - ping – check if remote host is reachable via ICMP ping
 
 ## Process management
@@ -74,14 +75,15 @@ Listing processes and confirming their status, and stopping processes if needed:
 
 ssh is really the only way to go, but it’s important to know telnet as well:
 
-- telnet – clear-text (insecure) remote access protocol
-- ssh – Secure SHell – encrypted remote access client
+- telnet – clear-text (insecure) remote access protocol - useful for testing connectivity.
+- ssh – Secure SHell – encrypted remote access client (see scp also)
 
 # File transfers commands
 
 Know how to copy files between servers or just download some package from the web:
 
-- scp – secure (encrypted) version of cp command
+- scp – secure (encrypted) version of cp command (see ssh also)
+- curl – download files from remote servers, HTTP/HTTPS 
 - wget – download files from remote servers, HTTP/HTTPS and FTP
 - rsync - copy and syncronized directory trees
 
@@ -92,6 +94,7 @@ Know how to copy files between servers or just download some package from the we
 - git add 
 - git commit
 - git push origin master
+- git checkout
 - git pull
 
 
