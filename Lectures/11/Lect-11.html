@@ -710,11 +710,118 @@ ol {
 
 <h1>Lecture 11 - Input Output</h1>
 
-<h2>Homework 5 is in this lecture also</h2>
+<h2>Data for Homework 5</h2>
+
+<p>Information for homework 5 is in this and the next lecture.
+You will need to download:</p>
+
+<p><a href="http://uw-s20-2015.s3.amazonaws.com/GCF_000001405.39_GRCh38.p41214_genomic.s44a-21.fna">Data for Genome</a><br></p>
+
+<h2>YouTube</h2>
 
 <h2>First: The Problem</h2>
 
+<p>Lots of times the process is much simpler to do than you might expect.
+For example with Cystic Fibrosis (CF),
+You have a single letter mutation that causes the disease.</p>
+
+<p>Overview of how genetics works.</p>
+
+<p>Video: Stephie.</p>
+
+<p>One of the first Machine Leering AI Recommended compounds.</p>
+
+<p>Drug under the brand: Trikafta.</p>
+
+<p>Now the problem is that if you don&rsquo;t have the mutation and you take the drug it kills you.
+If you do have the mutation and you take it it cures you.</p>
+
+<p>The Question --- Dose Stephie have the mutation.</p>
+
+<p>We are looking for</p>
+
+<pre><code>ACTGGCTGGCCTAGTGACTTCCAGCTGCACAGCTATCGACCCAGGGCTGGACAGCCCCTGCCTGGC
+</code></pre>
+
+<p>v.s. a healthy person:</p>
+
+<pre><code>ACTGGCTGGCCTAGTGACTTCCAGCTGCACAGCTATCGTCCCAGGGCTGGACAGCCCCTGCCTGGC
+</code></pre>
+
+<h2>Unix and DOS File System</h2>
+
+<p>It&rsquo;s important to know that if you are using Windows - this applies
+but Windows is going away.  It has become Windows/Linux and to get
+games to run on Linux there is now a Windows subsystem written by
+Microsoft that runs on Linux.   Microsoft Azure runs 3x more Linux
+that Windows and that ratio is increasing in favor of Linux</p>
+
 <h2>Input Output</h2>
+
+<ol>
+<li>Open a file</li>
+<li>Read in lines one at a time</li>
+<li>Process each line</li>
+</ol>
+
+<p>A little more detail:</p>
+
+<ul>
+<li>Read A File one line at a time
+
+<ul>
+<li>Set some values like the line number</li>
+<li>while not at the end of the file
+
+<ul>
+<li>if we find a string
+
+<ul>
+<li>report it</li>
+<li>exit loop</li>
+</ul></li>
+</ul></li>
+</ul></li>
+
+<li><p>if we never found the string</p>
+
+<ul>
+<li><p>report that we never found it</p>
+
+<pre><code>1. Files and File System
+	terminal
+	pwd
+	cd
+	download file
+	
+2. Cystic Fribrosis
+	Genetics
+		Human Genome Project
+		You can download entire human genomes
+			Too big
+			So I Just pulled out 100mb that are relevant
+	Mis Match of 1 letter
+	Produce too much mucus
+	[ 1 min of video ]
+	https://youtu.be/CTl131zklm4
+	1:26
+	Drug treatment
+		Once a week
+		If you don't have CF it kills you
+	Question dose person X have CF
+
+	Drug: Trikafta. 
+	https://youtu.be/PseMfs8q-gY - at very beginning
+
+Open File
+	Read File (one line at a time)
+		Look in each line for pattern
+		If found - report CF pattern found and location
+
+
+</code></pre></li>
+</ul></li>
+</ul>
 
 </div>
 
