@@ -1,5 +1,10 @@
-
 # Lecture 12 - Basic Command Line Commands
+
+[Using the command Line - https://youtu.be/lQFz4O8sqVA](https://youtu.be/lQFz4O8sqVA)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Using the command Line](http://uw-s20-2015.s3.amazonaws.com/1015-L-12-command-line-overview.mp4)<br>
 
 ## Basic Linux Commands
 
@@ -8,6 +13,7 @@ These are the commands at the command line that will get you through most situat
 ## Getting help in Linux
 
 - man – view manual pages for Linux commands
+- echo - just echo back what you type in (Print statement)
 
 ## Linux directory management commands
 
@@ -97,5 +103,9 @@ Know how to copy files between servers or just download some package from the we
 - git checkout
 - git pull
 
+
+## Details on Vim
+
+Interactive Vim Tutorial: [https://www.openvim.com/](https://www.openvim.com/)
 
 
