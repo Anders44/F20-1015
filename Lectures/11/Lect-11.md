@@ -10,6 +10,13 @@ You will need to download:
 
 ## YouTube
 
+[Input Output - Files - https://youtu.be/dL2oKyi5riw](https://youtu.be/dL2oKyi5riw)<br>
+[Input from the terminal - https://youtu.be/gZUsJZYcCXc](https://youtu.be/gZUsJZYcCXc)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Input Output - Files](http://uw-s20-2015.s3.amazonaws.com/1015-L-11-pt1-Input-Output.mp4)<br>
+[Input from the terminal](http://uw-s20-2015.s3.amazonaws.com/1015-L-11-pt2.mp4)<br>
 
 
 ## First: The Problem
