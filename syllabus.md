@@ -171,80 +171,80 @@ wrong then let's fix it.
 
 This is an approximate schedule.  Any updates will be announced.
 
-| Wk. |   Date | Description                                                                          |
-|----:|--------|:-------------------------------------------------------------------------------------|
-| 1   | Aug 24 | Lecture 1 : Class Intro                                                              |
-|     |        | Lecture 2 : Installation and Setup.                                                  |
-|     |        | Pod Cast: Why Computer Science.                                                      |
-|     |        | Pod Cast: Why This Class.                                                            |
-|     |        | Pod Cast: Why This Instructor.                                                       |
-|     |        |                                                                                      |
-| 2   | Aug 31 | Lecture 3: Variables and Data Type.    Two dimensions of data.                       |
-|     |        | Lecture 4: Where is data stored?  An overview of computer architecture.              |
-|     |        | Pod Cast: Why Test Code.                                                             |
-|     |        | Pod Cast: Computer Trends - BlockChain.                                              |
-|     |        |                                                                                      |
-| 3   | Sep  7 | Lecture 5: Lists and Sorting Data.                                                   |
-|     |        | Lecture 6: Pre-Sorted Data - Trees.                                                  |
-|     |        | Pod Cast: Computer Trends - Machine Learning.                                        |
-|     |        | Pod Cast: The Human Factor.                                                          |
-|     |        |                                                                                      |
-| 4   | Sep 14 | Lecture 7: Performance How fast is the code.  How correct is it.                     |
-|     |        | Lecture 8: If true then do.  Control Logic.                                          |
-|     |        | Pod Cast: History of Computing:  Unix and the OS.                                    |
-|     |        | Pod Cast: What can't be done.  Uncomputable things.                                  |
-|     |        |                                                                                      |
-| 5   | Sep 21 | Lecture 9: Associating Keys with Data.  Indexes. Dictionaries.                       |
-|     |        | Lecture 10:  Input / Output and Files.                                               | 
-|     |        | Pod Cast: How accounting fraud happens.                                              |
-|     |        | Pod Cast: Legal Responsibility.   Machine Learning and the Law.                      | (tbd)
-|     |        |                                                                                      |
-| 6   | Sep 28 | Lecture 11: Associating Functions and Data.  Object Oriented Programming.            |
-|     |        | Lecture 12: More on Objects.                                                         |
-|     |        | Pod Cast:  Owl / Java / JavaScript and a Single Processor World.                     |
-|     |        | Pod Cast:  Multi Processor World.                                                    |
-|     |        |                                                                                      |
-| 7   | Oct  5 | Lecture 13: Alternatives to objects.  Interfaces / Traits / Functional / Prototype   | 
-|     |        | Lecture 14: Using `git` (https://github.com or https//gitlab.com etc.)               |	(done)
-|     |        | Pod Cast:  Remote Work / Remote Study.                                               |
-|     |        | Pod Cast:  Strategy and beating the competition.                                     |
-|     |        |                                                                                      |
-| 8   | Oct 12 | Lecture 15:  Software &&engendering process.                                         |
-|     |        | Lecture 16:  Software Testing.                                                       |
-|     |        | Pod Cast:  Making Money with Computers.                                              | (done)
-|     |        | Pod Cast:  Making Money without Computers.                                           |
-|     |        |                                                                                      |
-| 9   | Oct 19 | Lecture 17:  What is hashing.  What is a blockchain.                                 |
-|     |        | Lecture 18:  Files and running programs at the command line.                         | 
-|     |        | Pod Cast:  Who is the "Al" in Algebra and Algorithm.                                 |
-|     |        | Pod Cast:  From slow to fast.   Algorithms are more important than languages.        |
-|     |        |                                                                                      |
-| 10  | Oct 26 | Lecture 20:  Machine Learning and Tensors -What is a Tensor?                         |
-|     |        | Lecture 20:  Fitting of Data.   Good Data / Bad Data.                                |
-|     |        | Pod Cast:  Univ. of Wyoming WABL Research.                                           |
-|     |        | Pod Cast:  Univ. of Wyoming AI Research.                                             |
-|     |        |                                                                                      |
-| 11  | Nov  2 | Lecture 21:  Encoding of Data - one hot.  Image Classification.                      |
-|     |        | Lecture 22:  Feature Engineering                                                     |
-|     |        | Pod Cast:  Costs of mistakes.  What are the costs of software defects.               |
-|     |        | Pod Cast:  Costs of security. What is security worth.                                |
-|     |        |                                                                                      |
-| 12  | Nov  9 | Lecture 23: Building our "game."                                                     |
-|     |        | Lecture 24: Interfacing to our "game."                                               |
-|     |        | Pod Cast:  Rise of the Robots.                                                       |
-|     |        | Pod Cast: The future is bright.                                                      |
-|     |        |                                                                                      |
-| 13  | Nov 16 | Lecture 25: Failures in training.  Problems with Machine Learning.                   |
-|     |        | Lecture 26: Other kinds of Machine Learning.                                         |
-|     |        |                                                                                      |
-| 14  | Nov 23 | Lecture 27: Testing with fuzzy data.                                                 |
-|     |        | Lecture 28: Impact of Machine Learning.  The 2nd Industrial Revolution.              |
-|     |        |                                                                                      |
-| 15  | Nov 30 | Lecture 29: More on our "game" and ML - Automated Survival in a Hostile Environment. |
-|     |        | Lecture 30: Still more on training and auto-programming.                             |
-|     |        |                                                                                      |
-| 16  | Dec  7 | Lecture 33: Where to from this point forward.  At UW / In Life.                      |
-|     |        | Lecture 34: Final Review.                                                            |
+| Wk. |   Date | Description                                                                          | Notes |
+|----:|--------|:-------------------------------------------------------------------------------------| ---- |
+| 1   | Aug 24 | Lecture 1 : Class Intro                                                              |                                                                                 |
+|     |        | Lecture 2 : Installation and Setup.                                                  |                                                                                 |
+|     |        | Pod Cast: Why Computer Science.                                                      |                                                                                 |
+|     |        | Pod Cast: Why This Class.                                                            |                                                                                 |
+|     |        | Pod Cast: Why This Instructor.                                                       |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 2   | Aug 31 | Lecture 3: Variables and Data Type.    Two dimensions of data.                       |                                                                                 |
+|     |        | Lecture 4: Where is data stored?  An overview of computer architecture.              |                                                                                 |
+|     |        | Pod Cast: Why Test Code.                                                             |                                                                                 |
+|     |        | Pod Cast: Computer Trends - BlockChain.                                              |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 3   | Sep  7 | Lecture 5: Lists and Sorting Data.                                                   |                                                                                 |
+|     |        | Lecture 6: Pre-Sorted Data - Trees.                                                  |                                                                                 |
+|     |        | Pod Cast: Computer Trends - Machine Learning.                                        |                                                                                 |
+|     |        | Pod Cast: The Human Factor.                                                          |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 4   | Sep 14 | Lecture 7: Performance How fast is the code.  How correct is it.                     |                                                                                 |
+|     |        | Lecture 8: If true then do.  Control Logic.                                          |                                                                                 |
+|     |        | Pod Cast: History of Computing:  Unix and the OS.                                    |                                                                                 |
+|     |        | Pod Cast: What can't be done.  Uncomputable things.                                  |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 5   | Sep 21 | Lecture 9: Associating Keys with Data.  Indexes. Dictionaries.                       |                                                                                 |
+|     |        | Lecture 10:  Input / Output and Files.                                               |                                                                                 |
+|     |        | Pod Cast: How accounting fraud happens.                                              |                                                                                 |
+|     |        | Pod Cast: Legal Responsibility.   Machine Learning and the Law.                      | (tbd)                                                                           |
+|     |        |                                                                                      |                                                                                 |
+| 6   | Sep 28 | Lecture 11: Associating Functions and Data.  Object Oriented Programming.            |	Input Output                                                                    |
+|     |        | Lecture 12: More on Objects.                                                         | Command Line Commands                                                           |
+|     |        | Pod Cast:  Owl / Java / JavaScript and a Single Processor World.                     | (2020-09-27)                                                                         |
+|     |        | Pod Cast:  Multi Processor World.                                                    |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 7   | Oct  5 | Lecture 13: Alternatives to objects.  Interfaces / Traits / Functional / Prototype   |                                                                                 |
+|     |        | Lecture 14: Using `git` (https://github.com or https//gitlab.com etc.)               |	(done)                                                                          |
+|     |        | Pod Cast:  Remote Work / Remote Study.                                               |                                                                                 |
+|     |        | Pod Cast:  Strategy and beating the competition.                                     |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 8   | Oct 12 | Lecture 15:  Software &&engendering process.                                         |                                                                                 |
+|     |        | Lecture 16:  Software Testing.                                                       |                                                                                 |
+|     |        | Pod Cast:  Making Money with Computers.                                              | (done)                                                                          |
+|     |        | Pod Cast:  Making Money without Computers.                                           | (2020-09-27)                                                                         |
+|     |        |                                                                                      |                                                                                 |
+| 9   | Oct 19 | Lecture 17:  What is hashing.  What is a blockchain.                                 |                                                                                 |
+|     |        | Lecture 18:  Files and running programs at the command line.                         |                                                                                 |
+|     |        | Pod Cast:  Who is the "Al" in Algebra and Algorithm.                                 |                                                                                 |
+|     |        | Pod Cast:  From slow to fast.   Algorithms are more important than languages.        |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 10  | Oct 26 | Lecture 20:  Machine Learning and Tensors -What is a Tensor?                         |                                                                                 |
+|     |        | Lecture 20:  Fitting of Data.   Good Data / Bad Data.                                |                                                                                 |
+|     |        | Pod Cast:  Univ. of Wyoming WABL Research.                                           |                                                                                 |
+|     |        | Pod Cast:  Univ. of Wyoming AI Research.                                             |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 11  | Nov  2 | Lecture 21:  Encoding of Data - one hot.  Image Classification.                      |                                                                                 |
+|     |        | Lecture 22:  Feature Engineering                                                     |                                                                                 |
+|     |        | Pod Cast:  Costs of mistakes.  What are the costs of software defects.               |                                                                                 |
+|     |        | Pod Cast:  Costs of security. What is security worth.                                |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 12  | Nov  9 | Lecture 23: Building our "game."                                                     |                                                                                 |
+|     |        | Lecture 24: Interfacing to our "game."                                               |                                                                                 |
+|     |        | Pod Cast:  Rise of the Robots.                                                       |                                                                                 |
+|     |        | Pod Cast: The future is bright.                                                      |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 13  | Nov 16 | Lecture 25: Failures in training.  Problems with Machine Learning.                   |                                                                                 |
+|     |        | Lecture 26: Other kinds of Machine Learning.                                         |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 14  | Nov 23 | Lecture 27: Testing with fuzzy data.                                                 |                                                                                 |
+|     |        | Lecture 28: Impact of Machine Learning.  The 2nd Industrial Revolution.              |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 15  | Nov 30 | Lecture 29: More on our "game" and ML - Automated Survival in a Hostile Environment. |                                                                                 |
+|     |        | Lecture 30: Still more on training and auto-programming.                             |                                                                                 |
+|     |        |                                                                                      |                                                                                 |
+| 16  | Dec  7 | Lecture 33: Where to from this point forward.  At UW / In Life.                      |                                                                                 |
+|     |        | Lecture 34: Final Review.                                                            |                                                                                 |
 
 
 
