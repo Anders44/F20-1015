@@ -210,7 +210,7 @@ This is an approximate schedule.  Any updates will be announced.
 |     |        | Pod Cast:  Strategy and beating the competition.                                     |                                                                                 |
 |     |        |                                                                                      |                                                                                 |
 | 8   | Oct 12 | Lecture 15:  Software &&engendering process.                                         |                                                                                 |
-|     |        | Lecture 16:  Software Testing.                                                       |                                                                                 |
+|     |        | Lecture 16:  Software Testing.                                                       | (done)                                                                                 |
 |     |        | Pod Cast:  Making Money with Computers.                                              | (done)                                                                          |
 |     |        | Pod Cast:  Making Money without Computers.                                           | (2020-09-27)                                                                         |
 |     |        |                                                                                      |                                                                                 |
