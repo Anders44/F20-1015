@@ -1,5 +1,15 @@
 # Lecture 14 - Midterm Review
 
+[Lecture 14 part 1 - midterm review - https://youtu.be/KP2naf-lZig](https://youtu.be/KP2naf-lZig)<br>
+[Lecture 14 part 2 - midterm review - https://youtu.be/hhMBQDFJNtI](https://youtu.be/hhMBQDFJNtI)<br>
+[Lecture 14 part 2 - midterm review - https://youtu.be/W80NSCCBsWM](https://youtu.be/W80NSCCBsWM)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Lecture 14 part 1 - midterm review](http://uw-s20-2015.s3.amazonaws.com/L-14-pt1-Midterm-Review.mp4)<br>
+[Lecture 14 part 2 - midterm review](http://uw-s20-2015.s3.amazonaws.com/L-14-pt2-Midterm-Review.mp4)<br>
+[Lecture 14 part 2 - midterm review](http://uw-s20-2015.s3.amazonaws.com/L-14-pt3-midterm-review.mp4)<br>
+
 This is really an overview of "how to be a successful programmer".
 
 ## Outline
