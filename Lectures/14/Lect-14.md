@@ -22,6 +22,8 @@ This is really an overview of "how to be a successful programmer".
 4. Be good at learning new things
 5. Be good at analyzing the "market" for what is happening
 
+## Claim to Fame
+
 
 ## Object Oriented Programming
 
@@ -49,4 +51,24 @@ From: [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 14. Go - interfaces
 15. MatLab - non-object code
 
+The 2 Most important principals in software development
+
+1. Do the following steps 
+	- Make it work
+	- Make it fast
+	- Make it elegant
+2. Wars are won not by the smarter but by the less stupid.
+	- Less code is better than more code	
+	- More pure functions are better than site-effect functions/methods/objects
+	- Things that improve testing are winners
+	- Deign is only as good as the tests that are applied to it (No battle plan survives first contact with the enemy!)
+
+
+How did Objects come about.
+
+Before Objects World.
+
+The Rise of "Java".
+
+The Fall of "Java" and object oriented programming.
 
