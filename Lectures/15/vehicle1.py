@@ -16,7 +16,6 @@ class Vehicle:
         else:
             self.odomoter = self.odomoter + n
 
-
 v1 = Vehicle( 'Tonka', 'truck', 2020 )
 v2 = Vehicle( 'NASA', 'moon rover', 1969 )
 
