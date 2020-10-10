@@ -30,4 +30,23 @@ vehicle1.py:
 m4_include(vehicle1.py)
 ```
 
+Ouptut:
 
+```
+m4_include(out1.py)
+```
+
+
+When we run it we don't get a useful output for the objects this can be fixed with
+a string conversion.  That is the function `__str__`.
+
+
+```
+m4_include(vehicle2.py)
+```
+
+Ouptut:
+
+```
+m4_include(out2.py)
+```
