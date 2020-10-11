@@ -4,7 +4,6 @@ DIR=../..
 PP=`pwd`
 
 all: ${FN}.html 
-	go build
 
 ${FN}.md: ${FN}.raw.md vehicle1.py vehicle2.py
 	m4 -P  ${FN}.raw.md vehicle1.py vehicle2.py >${FN}.md
