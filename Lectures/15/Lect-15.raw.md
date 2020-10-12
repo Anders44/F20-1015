@@ -3,6 +3,16 @@ m4_changequote(`[[[', `]]]')
 
 # Lecture 15 - Cool Little Objects
 
+## YouTube
+
+[Python Objects - https://youtu.be/pCYMwbcnRdM](https://youtu.be/pCYMwbcnRdM)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Python Objects](http://uw-s20-2015.s3.amazonaws.com/1015-L-15-objects.mp4)<br>
+
+
+
 An object is a mix of data and code.
 
 Let's model vehicles.
