@@ -1,0 +1,916 @@
+<style>
+@font-face {
+	font-family: octicons-link;
+	src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.5;
+	color: #24292e;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+.markdown-body .pl-c {
+	color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+	color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+	color: #6f42c1;
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+	color: #24292e;
+}
+
+.markdown-body .pl-ent {
+	color: #22863a;
+}
+
+.markdown-body .pl-k {
+	color: #d73a49;
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+	color: #032f62;
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+	color: #e36209;
+}
+
+.markdown-body .pl-bu {
+	color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+	color: #fafbfc;
+	background-color: #b31d28;
+}
+
+.markdown-body .pl-c2 {
+	color: #fafbfc;
+	background-color: #d73a49;
+}
+
+.markdown-body .pl-c2::before {
+	content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+	font-weight: bold;
+	color: #22863a;
+}
+
+.markdown-body .pl-ml {
+	color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+	font-weight: bold;
+	color: #005cc5;
+}
+
+.markdown-body .pl-mi {
+	font-style: italic;
+	color: #24292e;
+}
+
+.markdown-body .pl-mb {
+	font-weight: bold;
+	color: #24292e;
+}
+
+.markdown-body .pl-md {
+	color: #b31d28;
+	background-color: #ffeef0;
+}
+
+.markdown-body .pl-mi1 {
+	color: #22863a;
+	background-color: #f0fff4;
+}
+
+.markdown-body .pl-mc {
+	color: #e36209;
+	background-color: #ffebda;
+}
+
+.markdown-body .pl-mi2 {
+	color: #f6f8fa;
+	background-color: #005cc5;
+}
+
+.markdown-body .pl-mdr {
+	font-weight: bold;
+	color: #6f42c1;
+}
+
+.markdown-body .pl-ba {
+	color: #586069;
+}
+
+.markdown-body .pl-sg {
+	color: #959da5;
+}
+
+.markdown-body .pl-corl {
+	text-decoration: underline;
+	color: #032f62;
+}
+
+.markdown-body .octicon {
+	display: inline-block;
+	vertical-align: text-top;
+	fill: currentColor;
+}
+
+.markdown-body a {
+	background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+	outline-width: 0;
+}
+
+.markdown-body strong {
+	font-weight: inherit;
+}
+
+.markdown-body strong {
+	font-weight: bolder;
+}
+
+.markdown-body h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+.markdown-body img {
+	border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+.markdown-body hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+.markdown-body input {
+	font: inherit;
+	margin: 0;
+}
+
+.markdown-body input {
+	overflow: visible;
+}
+
+.markdown-body [type="checkbox"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.markdown-body * {
+	box-sizing: border-box;
+}
+
+.markdown-body input {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.markdown-body a {
+	color: #0366d6;
+	text-decoration: none;
+}
+
+.markdown-body a:hover {
+	text-decoration: underline;
+}
+
+.markdown-body strong {
+	font-weight: 600;
+}
+
+.markdown-body hr {
+	height: 0;
+	margin: 15px 0;
+	overflow: hidden;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #dfe2e5;
+}
+
+.markdown-body hr::before {
+	display: table;
+	content: "";
+}
+
+.markdown-body hr::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.markdown-body table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+	padding: 0;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body h1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.markdown-body h2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.markdown-body h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.markdown-body h4 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.markdown-body h5 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.markdown-body h6 {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.markdown-body p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+	margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+	x-list-style-type: lower-roman;
+	  list-style-type: decimal;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+	list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+	margin-left: 0;
+}
+
+.markdown-body code {
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 12px;
+}
+
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 12px;
+}
+
+.markdown-body .octicon {
+	vertical-align: text-bottom;
+}
+
+.markdown-body .pl-0 {
+	padding-left: 0 !important;
+}
+
+.markdown-body .pl-1 {
+	padding-left: 4px !important;
+}
+
+.markdown-body .pl-2 {
+	padding-left: 8px !important;
+}
+
+.markdown-body .pl-3 {
+	padding-left: 16px !important;
+}
+
+.markdown-body .pl-4 {
+	padding-left: 24px !important;
+}
+
+.markdown-body .pl-5 {
+	padding-left: 32px !important;
+}
+
+.markdown-body .pl-6 {
+	padding-left: 40px !important;
+}
+
+.markdown-body::before {
+	display: table;
+	content: "";
+}
+
+.markdown-body::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.markdown-body>*:first-child {
+	margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+	margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+	color: inherit;
+	text-decoration: none;
+}
+
+.markdown-body .anchor {
+	float: left;
+	padding-right: 4px;
+	margin-left: -20px;
+	line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+	outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.markdown-body hr {
+	height: 0.25em;
+	padding: 0;
+	margin: 24px 0;
+	background-color: #e1e4e8;
+	border: 0;
+}
+
+.markdown-body blockquote {
+	padding: 0 1em;
+	color: #6a737d;
+	border-left: 0.25em solid #dfe2e5;
+}
+
+.markdown-body blockquote>:first-child {
+	margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown-body kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font-size: 11px;
+	line-height: 10px;
+	color: #444d56;
+	vertical-align: middle;
+	background-color: #fafbfc;
+	border: solid 1px #c6cbd1;
+	border-bottom-color: #959da5;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 #959da5;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+	color: #1b1f23;
+	vertical-align: middle;
+	visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+	text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+	visibility: visible;
+}
+
+.markdown-body h1 {
+	padding-bottom: 0.3em;
+	font-size: 2em;
+	border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+	padding-bottom: 0.3em;
+	font-size: 1.5em;
+	border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h3 {
+	font-size: 1.25em;
+}
+
+.markdown-body h4 {
+	font-size: 1em;
+}
+
+.markdown-body h5 {
+	font-size: 0.875em;
+}
+
+.markdown-body h6 {
+	font-size: 0.85em;
+	color: #6a737d;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body li {
+	word-wrap: break-all;
+}
+
+.markdown-body li>p {
+	margin-top: 16px;
+}
+
+.markdown-body li+li {
+	margin-top: 0.25em;
+}
+
+.markdown-body dl {
+	padding: 0;
+}
+
+.markdown-body dl dt {
+	padding: 0;
+	margin-top: 16px;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.markdown-body dl dd {
+	padding: 0 16px;
+	margin-bottom: 16px;
+}
+
+.markdown-body table {
+	display: block;
+	width: 100%;
+	overflow: auto;
+}
+
+.markdown-body table th {
+	font-weight: 600;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+	padding: 6px 13px;
+	border: 1px solid #dfe2e5;
+}
+
+.markdown-body table tr {
+	background-color: #fff;
+	border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+	background-color: #f6f8fa;
+}
+
+.markdown-body img {
+	max-width: 100%;
+	box-sizing: content-box;
+	background-color: #fff;
+}
+
+.markdown-body img[align=right] {
+	padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+	padding-right: 20px;
+}
+
+.markdown-body code {
+	padding: 0.2em 0.4em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(27,31,35,0.05);
+	border-radius: 3px;
+}
+
+.markdown-body pre {
+	word-wrap: normal;
+}
+
+.markdown-body pre>code {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}
+
+.markdown-body .highlight {
+	margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+	margin-bottom: 0;
+	word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+	padding: 16px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.45;
+	background-color: #f6f8fa;
+	border-radius: 3px;
+}
+
+.markdown-body pre code {
+	display: inline;
+	max-width: auto;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	line-height: inherit;
+	word-wrap: normal;
+	background-color: transparent;
+	border: 0;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+	color: #005cc5;
+	border-color: #005cc5;
+}
+
+.markdown-body kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	line-height: 10px;
+	color: #444d56;
+	vertical-align: middle;
+	background-color: #fafbfc;
+	border: solid 1px #d1d5da;
+	border-bottom-color: #c6cbd1;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 #c6cbd1;
+}
+
+.markdown-body :checked+.radio-label {
+	position: relative;
+	z-index: 1;
+	border-color: #0366d6;
+}
+
+.markdown-body .task-list-item {
+	list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+	margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+	margin: 0 0.2em 0.25em -1.6em;
+	vertical-align: middle;
+}
+
+.markdown-body hr {
+	border-bottom-color: #eee;
+}
+
+</style>
+<style>
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
+<div class="markdown-body">
+
+<h1>Lecture 16 - Using Objects</h1>
+
+<p>This is always a complex thing - you look at objects and say, &ldquo;why would I ever use this?&rdquo;.
+This is a valid consideration.  Objects are good when you have a more complex system
+with lots of moving parts.   An introductory class makes that difficulty.  Last year I
+did green house controllers - because I am interested in them.    This year we
+are going to talk about solar, batteries, vans and other fun stuff.</p>
+
+<p>First batteries.  This is where you get to find out about one of the &ldquo;fun&rdquo; things about
+being in Compeer Science.   Writing pregames means that you get to learn about non-computer science
+subjects.   To build an effective chunk of software that works with batteries - you have to learn
+about batteries.  Most people look at batteries and kind of have the view that you just hook them
+up and they work.  Not really.  They are complicated!</p>
+
+<p>First of all - the battery in your car - the starter battery.  It is designed to produce
+a large output for a short time and then get re-charged.  When you store electricity from
+a solar system you want to produce a small out put for a large time.  So car batteries are
+the wrong thing for solar storage.</p>
+
+<p>They make &ldquo;led-acid&rdquo; batteries for small output over large time.  This are classified as
+&ldquo;golf-cart&rdquo; batteries.</p>
+
+<p>The second thing is how batteries are rated.  Let&rsquo;s say you have a 100 Ampere Hour battery.
+This means that from 100% to 0% on the battery you get 100 Ampere Hours (AH).  The voltage
+will go from 14.6 volts to  11.8 volts on a led-acid battery.  This voltage is determined
+by the chemistry of he batter.  If you actually use your batteries in this fashion, from
+100% down to 0% you will get about 5 charge / discharge cycles and then need to replace
+the battery.  They are expensive - so you don&rsquo;t want to do that.  You want to use the
+battery in a way where you get a high number of charge/discharge cycles.  For a
+led-acid battery this is from 95% charge to 75% charge.  So your 100 AH battery actually
+can only be used in this 20% range and 20% * 100 AH = 20 AH useful power.  Ouch!</p>
+
+<p>To convert from Ah to Watts - you take voltage times amperage to get watts.</p>
+
+<pre><code>W = A * v
+</code></pre>
+
+<p>Watts is a measure of how much useful work you are getting.   Now if you had a
+batter where you had a bigger useful range - and more charge/discharge cycles
+that would be good.   There is such a thing.  That thing is a Lithium Ion
+battery.  It would be nice if there was just one Lithium Ion type of battery
+but there are actually a big bunch of them.  They very in voltage, charge
+cycles,  weight, mechanical properties - and what happens if exposed to
+air or water.   Some of them will explode on contact with air - some will
+catch on fire and burn when exposed to water - some will only slowly smolder
+if punctured.  Some expand when they burn.  Some let off toxic gasses.</p>
+
+<p>If you are going to use one in a vehicle - then you need to take into
+consideration that in an accident the battery may get damaged.  If you use
+a chemical combination that catches on fire - this turns an accident into
+a potentially deadly fire!   Lithium Phosphate LiPo is the lightest and
+highest energy - but if you puncture the battery there is no way to
+put it out.  It will burn water!  It will burn air - it will burn steel!
+Very bad!  This is the kind of a battery in your laptop and your phone!</p>
+
+<p>Lithium Iron Phosphate ( LiFePo4 ) is a little bit heavier - but it will only
+smolder.   It will not burst into open flame and it can be put out by dousing
+with water or foam or other flame retardants.</p>
+
+<p>But batteries have a temperature range where they work. led-acid is -30 degrees Firefight to 200 degrees F.
+That is a lot.   No such luck with LeFePo4.  Most of them will be damaged permanently if you try to
+charge them below 40 degrees and they will be messed up in weir ways if you try to charge at overt 120
+degrees.</p>
+
+<p>So if you want to use the LiFePo4 in a &ldquo;van&rdquo; you will need to heat and cool
+the batteries when they are being charged.</p>
+
+<p>Now to cool the battery you on medium days you can just blow a fan over it.
+Take cool air and use that.</p>
+
+<p>On hot days you need to air condition the battery.  Basically pump heat
+from ti to some other location.</p>
+
+<p>ON cold days you need to heat the battery up.  So you need to turn on
+a heater and warm it up.</p>
+
+<p>Fortunately this Van has an engine block heater that runs off of diesel
+and can be started.  Instead of heating the engine block - the hot fluids
+can be sent to where the batteries are to heat the batteries.</p>
+
+<p>The engine air conditioner is not so simple.  This would require the
+use of the main engine to run it.  So we need a dedicated air conditioner
+that can run and pump cold air over the batteries.</p>
+
+<p>So an onside air conditioner is the usual method for cooling the battery.
+A good modern system sis a xyzzy for producing a small air conditioner.
+Since it is small AC the best way to do this is to put just the battery
+in an insulated box and just provide AC to just the battery when the outside
+air temperature exceeds the charge temperature of the battery.</p>
+
+<p>When the battery is too warm or too cold then we turn off the charge and
+protect the battery.   This means that we need a switch to shut off
+the charging.</p>
+
+<p>When LiFePo4 batteries discharge they produce heat also.  Again we
+will need to cool them.  So as a part of the discharge process we will
+run the AC to cool the battery.</p>
+
+<p>Keeping proper charging and temperature gives us a battery that we
+can use between 85% and 15%, or 70% of its ampere hour capacity
+with between 4,000 and 10,000 cycles.</p>
+
+<p>So you can get 100 to 200 cycles from a $200 battery, and
+4,000 to 10,000 cycles out of a $1000 battery and a slew of
+outside systems to monitor and maintain the system.  Over the
+life cycle of the system the LiFePo4 battery much cheaper, but
+only if you can automate the &ldquo;system&rdquo;.</p>
+
+<p>So what is in our system:</p>
+
+<ol>
+<li>A AC to cool the battery - this can be turned on/off by the computer</li>
+<li>A way to turn on the &ldquo;heater&rdquo; - this can be turned on/off by the computer</li>
+<li>A temperature sensor for the battery</li>
+<li>A temperature sensor for the outside air</li>
+<li>A sensor that says when the &ldquo;charger&rdquo; is providing electricity to charge the battery</li>
+<li>A sensor that says when the user is pulling power from the battery</li>
+<li>A switch - computer controlled - to turn off the charger</li>
+<li>A switch - computer controlled - to turn off user - in case the battery is to empty</li>
+<li>The &ldquo;fan&rdquo; in the battery compartment</li>
+<li>The &ldquo;battery&rdquo;</li>
+<li>A battery charge sensor (how full is the battery)</li>
+</ol>
+
+<p>For objects we have:</p>
+
+<p><code>class switch</code> - a controller that tuns on/off a switch</p>
+
+<p><code>class charger_switch ( switch )</code> - an inherited switch that can turn off the charging</p>
+
+<p><code>class output_switch ( switch )</code> - an  inherited switch that can turn off usage of the battery if power is too low.</p>
+
+<p><code>class ac_control</code> - a class to turn on/off the AC system</p>
+
+<p><code>class temperature_sensor</code> - a class to measure the temperature</p>
+
+<p><code>class battery_temperature ( temperature_sensor )</code> - the temperature of the battery</p>
+
+<p><code>class outside_temperature ( temperature_sensor )</code> - the temperature of the outside air</p>
+
+<p><code>class battery_state</code> - how full is the battery</p>
+
+<p><code>class charger_state</code> - is the charger available</p>
+
+<p><code>class fan</code> - a class to turn on/off the fan</p>
+
+<p><code>class user_poser</code> - a class that shows how much power the user is using</p>
+
+<p>So let&rsquo;s start looking at individual classes.</p>
+
+<pre><code>class switch:
+
+    def __init__ ( self, addr ):
+        self.my_addr = addr
+        self.state = 0                #  Assume that the switch is off
+        system_set ( f:&quot;switch:{addr}&quot;, 0 )    # Set to off
+
+    def isOn ( self ):
+        if self.state == 0:
+            return False
+        else:
+            return True
+
+    def turnOn ( self ):
+        self.state = 1    
+        system_set ( f:&quot;switch:{addr}&quot;, 1 )    # Set to on
+
+    def turnOff ( self ):
+        self.state = 0    
+        system_set ( f:&quot;switch:{addr}&quot;, 0 )    # Set to off
+    
+</code></pre>
+
+<p>Now let&rsquo;s take a look at the 2 different switches:</p>
+
+<pre><code>class charger_switch ( switch ):
+
+	def __init__ ( self ):
+		self.my_addr = 1
+		super().init ( 1 )
+
+</code></pre>
+
+<p>Now let&rsquo;s take a look at the other one:</p>
+
+<pre><code>class output_switch ( switch ):
+
+	def __init__ ( self ):
+		self.my_addr = 2
+		super().init ( 2 )
+
+</code></pre>
+
+<h2>Takeaways</h2>
+
+<ol>
+<li>Batteries for solar storage is not a &ldquo;simple&rdquo; technology.  You don&rsquo;t just hook up some solar to some batteries and it works.</li>
+<li>Details are really important.</li>
+<li>We didn&rsquo;t talk about the complexity of &ldquo;solar&rdquo; power - or how you want to control the AC or the &ldquo;heater&rdquo;.</li>
+<li>A class &ldquo;hierarchy&rdquo; will require a &ldquo;significant&rdquo; knowledge of the&rdquo; underlying system you are going to control.</li>
+<li>The &ldquo;class&rdquo; or Object Oriented Programming (OOP) provides a useful way to &ldquo;model&rdquo; the system - and to re-use code (like the temperature sensor)</li>
+<li>If you want to use &ldquo;solar&rdquo; and &ldquo;batteries&rdquo; to build an &ldquo;off&rdquo; grid house or van - you need to have a &ldquo;lot&rdquo; of complex technology and knowledge about how the system works.</li>
+</ol>
+
+</div>
+
