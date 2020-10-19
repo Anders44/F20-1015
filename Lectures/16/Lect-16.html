@@ -793,10 +793,9 @@ use of the main engine to run it.  So we need a dedicated air conditioner
 that can run and pump cold air over the batteries.</p>
 
 <p>So an onside air conditioner is the usual method for cooling the battery.
-A good modern system sis a xyzzy for producing a small air conditioner.
 Since it is small AC the best way to do this is to put just the battery
 in an insulated box and just provide AC to just the battery when the outside
-air temperature exceeds the charge temperature of the battery.</p>
+air temperature exceeds the desired charge temperature of the battery.</p>
 
 <p>When the battery is too warm or too cold then we turn off the charge and
 protect the battery.   This means that we need a switch to shut off
@@ -858,12 +857,14 @@ only if you can automate the &ldquo;system&rdquo;.</p>
 
 <p>So let&rsquo;s start looking at individual classes.</p>
 
-<pre><code>class switch:
+<pre><code>import simulated_system
+
+class switch:
 
     def __init__ ( self, addr ):
         self.my_addr = addr
         self.state = 0                #  Assume that the switch is off
-        system_set ( f:&quot;switch:{addr}&quot;, 0 )    # Set to off
+        simulated_system.system_set ( f&quot;switch:{addr}&quot;, 0 )    # Set to off
 
     def isOn ( self ):
         if self.state == 0:
@@ -873,31 +874,65 @@ only if you can automate the &ldquo;system&rdquo;.</p>
 
     def turnOn ( self ):
         self.state = 1    
-        system_set ( f:&quot;switch:{addr}&quot;, 1 )    # Set to on
+        simulated_system.system_set ( f&quot;switch:{addr}&quot;, 1 )    # Set to on
 
     def turnOff ( self ):
         self.state = 0    
-        system_set ( f:&quot;switch:{addr}&quot;, 0 )    # Set to off
-    
+        simulated_system.system_set ( f&quot;switch:{addr}&quot;, 0 )    # Set to off
+   
+
+if __name__ == &quot;__main__&quot;:
+    print ( &quot;In Main&quot; )
+
+    s = switch(4)
+    print ( f&quot;{s}&quot; )
+ 
+
 </code></pre>
 
 <p>Now let&rsquo;s take a look at the 2 different switches:</p>
 
-<pre><code>class charger_switch ( switch ):
+<pre><code>
+import switch
 
-	def __init__ ( self ):
-		self.my_addr = 1
-		super().init ( 1 )
+class charger_switch ( switch.switch ):
+
+    def __init__ ( self ):
+        self.my_addr = 1
+        super().__init__ ( 1 )
+
+
+
+if __name__ == &quot;__main__&quot;:
+    print ( &quot;In Main&quot; )
+
+    s = charger_switch()
+    print ( f&quot;{s}&quot; )
+ 
+
 
 </code></pre>
 
 <p>Now let&rsquo;s take a look at the other one:</p>
 
-<pre><code>class output_switch ( switch ):
+<pre><code>
+import switch
 
-	def __init__ ( self ):
-		self.my_addr = 2
-		super().init ( 2 )
+class output_switch ( switch.switch ):
+
+    def __init__ ( self ):
+        self.my_addr = 2
+        super().__init__ ( 2 )
+
+
+
+if __name__ == &quot;__main__&quot;:
+    print ( &quot;In Main&quot; )
+
+    s = output_switch()
+    print ( f&quot;{s}&quot; )
+ 
+
 
 </code></pre>
 

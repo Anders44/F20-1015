@@ -1,4 +1,4 @@
-
+m4_changequote(`[[[',`]]]')
 
 # Lecture 16 - Using Objects
 
@@ -152,60 +152,13 @@ So let's start looking at individual classes.
 
 
 ```
-import simulated_system
-
-class switch:
-
-    def __init__ ( self, addr ):
-        self.my_addr = addr
-        self.state = 0                #  Assume that the switch is off
-        simulated_system.system_set ( f"switch:{addr}", 0 )    # Set to off
-
-    def isOn ( self ):
-        if self.state == 0:
-            return False
-        else:
-            return True
-
-    def turnOn ( self ):
-        self.state = 1    
-        simulated_system.system_set ( f"switch:{addr}", 1 )    # Set to on
-
-    def turnOff ( self ):
-        self.state = 0    
-        simulated_system.system_set ( f"switch:{addr}", 0 )    # Set to off
-   
-
-if __name__ == "__main__":
-    print ( "In Main" )
-
-    s = switch(4)
-    print ( f"{s}" )
- 
-
+m4_include(switch.py)
 ```
 
 Now let's take a look at the 2 different switches:
 
 ```
-
-import switch
-
-class charger_switch ( switch.switch ):
-
-    def __init__ ( self ):
-        self.my_addr = 1
-        super().__init__ ( 1 )
-
-
-
-if __name__ == "__main__":
-    print ( "In Main" )
-
-    s = charger_switch()
-    print ( f"{s}" )
- 
-
+m4_include(charger_switch.py)
 
 ```
 
@@ -213,24 +166,7 @@ Now let's take a look at the other one:
 
 
 ```
-
-import switch
-
-class output_switch ( switch.switch ):
-
-    def __init__ ( self ):
-        self.my_addr = 2
-        super().__init__ ( 2 )
-
-
-
-if __name__ == "__main__":
-    print ( "In Main" )
-
-    s = output_switch()
-    print ( f"{s}" )
- 
-
+m4_include(output_switch.py)
 
 ```
 

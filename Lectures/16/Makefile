@@ -15,7 +15,7 @@ ${FN}.html: ${FN}.md
 	echo cat ./${DIR}/md.css ${FN}.html >/tmp/${FN}.html
 	cat ./${DIR}/css/pre ./${DIR}/css/markdown.css ./${DIR}/css/post ./${DIR}/md.css ./${DIR}/css/hpre ${FN}.html ./${DIR}/css/hpost >/tmp/${FN}.html
 	mv /tmp/${FN}.html ./${FN}.html
-	echo "file://${pp}/${FN}.html" >open.1
+	echo "file://${PP}/${FN}.html" >open.1
 
 aa:
-	echo "file://${pp}/${FN}.html" >open.1
+	echo "file://${PP}/${FN}.html" >open.1
