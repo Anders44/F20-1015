@@ -1,5 +1,6 @@
 m4_changequote(`[[[',`]]]')
 
+
 # Lecture 16 - Using Objects
 
 This is always a complex thing - you look at objects and say, "why would I ever use this?".
