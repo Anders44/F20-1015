@@ -6,7 +6,7 @@ class switch:
         self.my_addr = addr
         self.name = name
         self.state = 0                #  Assume that the switch is off
-        simulated_system.system_set ( f"switch:{addr}", 0 )    # Set to off
+        simulated_system.system_set ( f"switch:{self.my_addr}", 0 )    # Set to off
 
     def isOn ( self ):
         if self.state == 0:
@@ -16,11 +16,11 @@ class switch:
 
     def turnOn ( self ):
         self.state = 1    
-        simulated_system.system_set ( f"switch:{addr}", 1 )    # Set to on
+        simulated_system.system_set ( f"switch:{self.my_addr}", 1 )    # Set to on
 
     def turnOff ( self ):
         self.state = 0    
-        simulated_system.system_set ( f"switch:{addr}", 0 )    # Set to off
+        simulated_system.system_set ( f"switch:{self.my_addr}", 0 )    # Set to off
 
     def __str__ ( self ):
         if self.isOn():
