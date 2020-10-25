@@ -3,7 +3,8 @@ FN=Lect-18
 DIR=../..
 PP=`pwd`
 
-PY= op1.py
+PY= op1.py op2.py op3.py op4.py op5.py
+
 
 all: ${FN}.html 
 

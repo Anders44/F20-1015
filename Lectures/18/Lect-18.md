@@ -128,3 +128,125 @@ on a computer use a "precedence" process.
             </tr>
             </tbody>
 </table>
+
+
+So we can use parens to order.  You will notice in the table that they are at the top of the list.
+
+
+```
+
+a = 2
+b = 3
+c = 4
+
+x = ( a + b ) * c
+
+# Use Paraentisis to order
+print ( f"x={x}" )
+
+
+```
+
+Computers representation is to use on/off signals - so a number is a set of on/off signals.
+
+For humans this is 1's and 0's 
+
+This means that we have operators that work on binary data.
+
+
+```
+
+a = 4
+b = 2
+
+x = a << b
+
+print ( f"x={x}" )
+
+y = ( a * 2 ) * 2
+
+print ( f"y={y}" )
+
+a = 4
+z = ~a
+
+print ( f"z={z}" )
+
+
+```
+
+This leads to how computers represent negative numbers!  They use a "bit" to say positive
+or negate.
+
+That is why when we flipped all the bits in the value we got a negate number.
+
+
+
+So what about division:
+
+```
+
+a = 32
+b = 3
+
+x = a >> b
+
+print ( f"x={x}" )
+
+
+
+```
+
+And basic boolean operations (What is a boolean operation):
+
+And:
+
+```
+
+a = 2
+b = 3
+c = a & b
+
+print ( f"c={c}" )
+
+
+
+```
+
+Or:
+
+```
+
+a = 2
+b = 3
+c = a | b
+
+print ( f"c={c}" )
+
+
+
+```
+
+
+
+
+
+
+Exclusive Or:
+
+```
+
+a = 2
+b = 3
+c = a ^ b
+
+print ( f"c={c}" )
+
+
+
+```
+
+
+
+
+

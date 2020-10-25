@@ -876,5 +876,106 @@ on a computer use a &ldquo;precedence&rdquo; process.</p>
             </tbody>
 </table>
 
+<p>So we can use parens to order.  You will notice in the table that they are at the top of the list.</p>
+
+<pre><code>
+a = 2
+b = 3
+c = 4
+
+x = ( a + b ) * c
+
+# Use Paraentisis to order
+print ( f&quot;x={x}&quot; )
+
+
+</code></pre>
+
+<p>Computers representation is to use on/off signals - so a number is a set of on/off signals.</p>
+
+<p>For humans this is 1&rsquo;s and 0&rsquo;s</p>
+
+<p>This means that we have operators that work on binary data.</p>
+
+<pre><code>
+a = 4
+b = 2
+
+x = a &lt;&lt; b
+
+print ( f&quot;x={x}&quot; )
+
+y = ( a * 2 ) * 2
+
+print ( f&quot;y={y}&quot; )
+
+a = 4
+z = ~a
+
+print ( f&quot;z={z}&quot; )
+
+
+</code></pre>
+
+<p>This leads to how computers represent negative numbers!  They use a &ldquo;bit&rdquo; to say positive
+or negate.</p>
+
+<p>That is why when we flipped all the bits in the value we got a negate number.</p>
+
+<p>So what about division:</p>
+
+<pre><code>
+a = 32
+b = 3
+
+x = a &gt;&gt; b
+
+print ( f&quot;x={x}&quot; )
+
+
+
+</code></pre>
+
+<p>And basic boolean operations (What is a boolean operation):</p>
+
+<p>And:</p>
+
+<pre><code>
+a = 2
+b = 3
+c = a &amp; b
+
+print ( f&quot;c={c}&quot; )
+
+
+
+</code></pre>
+
+<p>Or:</p>
+
+<pre><code>
+a = 2
+b = 3
+c = a | b
+
+print ( f&quot;c={c}&quot; )
+
+
+
+</code></pre>
+
+<p>Exclusive Or:</p>
+
+<pre><code>
+a = 2
+b = 3
+c = a ^ b
+
+print ( f&quot;c={c}&quot; )
+
+
+
+</code></pre>
+
 </div>
 

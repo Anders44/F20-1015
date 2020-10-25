@@ -118,3 +118,68 @@ on a computer use a "precedence" process.
             </tr>
             </tbody>
 </table>
+
+
+So we can use parens to order.  You will notice in the table that they are at the top of the list.
+
+
+```
+m4_include(op2.py)
+```
+
+Computers representation is to use on/off signals - so a number is a set of on/off signals.
+
+For humans this is 1's and 0's 
+
+This means that we have operators that work on binary data.
+
+
+```
+m4_include(op3.py)
+```
+
+This leads to how computers represent negative numbers!  They use a "bit" to say positive
+or negate.
+
+That is why when we flipped all the bits in the value we got a negate number.
+
+
+
+So what about division:
+
+```
+m4_include(op4.py)
+```
+
+And basic boolean operations (What is a boolean operation):
+
+And:
+
+```
+m4_include(op5.py)
+
+```
+
+Or:
+
+```
+m4_include(op6.py)
+
+```
+
+
+
+
+
+
+Exclusive Or:
+
+```
+m4_include(op7.py)
+
+```
+
+
+
+
+
