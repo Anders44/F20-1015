@@ -3,6 +3,18 @@ m4_changequote(`[[[',`]]]')
 
 # Lecture 16 - Using Objects
 
+[1015 Lect 16 pt 1 - More on Objects - https://youtu.be/gfla1aTjTis](https://youtu.be/gfla1aTjTis)<br>
+[1015 Lect 16 pt 2 - More on Objects - https://youtu.be/_zkIj-dHi0A](https://youtu.be/_zkIj-dHi0A)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[1015 Lect 16 pt 1 - More on Objects](http://uw-s20-2015.s3.amazonaws.com/1015-L-16-pt1-objects.mp4)<br>
+[1015 Lect 16 pt 2 - More on Objects](http://uw-s20-2015.s3.amazonaws.com/1015-L-16-object-pt2.mp4)<br>
+
+
+
+
+
 This is always a complex thing - you look at objects and say, "why would I ever use this?".
 This is a valid consideration.  Objects are good when you have a more complex system
 with lots of moving parts.   An introductory class makes that difficulty.  Last year I
