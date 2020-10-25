@@ -1,3 +1,5 @@
+m4_changequote(`[[[',`]]]')
+
 # Lecture 17 - Object Homework
 
 Our "van" system has a heater, cooler and batteries - and we can run it.   Our next step is to take advantage of 
@@ -38,6 +40,13 @@ How we use Tuples to represent a "tree".
 What are the operations on a "tree"?
 
 
+```
+m4_include(tree.py)
+```
+
+Now we can use it something like a dictionary, but having the ability to spit out
+the data in a sorted order or reverse sorted order is useful.   Also the ability
+to insert at a low cost (and delete at a low cost) is also useful.
 
 
 
