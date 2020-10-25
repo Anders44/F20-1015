@@ -38,7 +38,8 @@ bat_min_temp = 35
 bat_max_temp = 90
 
 raw_solar_on = 6        # Min voltage where solar will be run to heating pad.
-raw_solar_off = 12.4    # Max voltage where solar will be run to heating pad.
+raw_solar_off = 15.0    # Max voltage where solar will be run to heating pad.
+head_pad_offset = 0.4    # Voltage where we should turn off heat pad.
 
 # print ( f"{world_state}" )
 
