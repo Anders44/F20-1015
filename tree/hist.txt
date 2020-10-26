@@ -1,0 +1,4 @@
+
+sudo apt-get install graphgiz
+dot -Tsvg dot-tree.dot >dot-tree.svg
+dot -Tpng dot-tree.dot >dot-tree.png
