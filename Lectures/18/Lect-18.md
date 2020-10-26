@@ -1,5 +1,10 @@
 
 
+<style>
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
 # Lecture 18 - Operators and other stuff
 
 This is kind of the "stuff" that is in python - with a few exceptions.
@@ -36,6 +41,7 @@ print ( f"x={x}" )
 What we are seeing is "precedence" of operators.  Most languages
 on a computer use a "precedence" process.  
 
+<div class="pagebreak"> </div>
 <table border="1" cellspacing="0" width="50%" cellpadding="2" style="border-collapse: collapse" bordercolor="#111111">
             <tbody><tr>
               <th>

@@ -708,6 +708,11 @@ ol {
 
 <div class="markdown-body">
 
+<style>
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
 <h1>Lecture 18 - Operators and other stuff</h1>
 
 <p>This is kind of the &ldquo;stuff&rdquo; that is in python - with a few exceptions.</p>
@@ -783,6 +788,7 @@ print ( f&quot;x={x}&quot; )
 <p>What we are seeing is &ldquo;precedence&rdquo; of operators.  Most languages
 on a computer use a &ldquo;precedence&rdquo; process.</p>
 
+<p><div class="pagebreak"> </div>
 <table border="1" cellspacing="0" width="50%" cellpadding="2" style="border-collapse: collapse" bordercolor="#111111">
             <tbody><tr>
               <th>
@@ -796,7 +802,7 @@ on a computer use a &ldquo;precedence&rdquo; process.</p>
               <td>Parentheses (grouping)</td>
             </tr>
             <tr>
-              <td align="center"><font face="Courier New" size="2"><i>f</i>(args...)</font></td>
+              <td align="center"><font face="Courier New" size="2"><i>f</i>(args&hellip;)</font></td>
               <td>Function call</td>
             </tr>
             <tr>
@@ -813,7 +819,7 @@ on a computer use a &ldquo;precedence&rdquo; process.</p>
               <td>Attribute reference</td>
             </tr>
             <tr>
-              <td align="center"><font face="Courier New" size="2">**</font></td>
+              <td align="center"><font face="Courier New" size="2">*<em></font></td>
               <td>Exponentiation</td>
             </tr>
             <tr>
@@ -825,7 +831,7 @@ on a computer use a &ldquo;precedence&rdquo; process.</p>
               <td>Positive, negative</td>
             </tr>
             <tr>
-              <td align="center"><font face="Courier New" size="2">*, /,
+              <td align="center"><font face="Courier New" size="2"></em>, /,
               %</font></td>
               <td>Multiplication, division, remainder </td>
             </tr>
@@ -852,12 +858,12 @@ on a computer use a &ldquo;precedence&rdquo; process.</p>
               <td>Bitwise OR</td>
             </tr>
             <tr>
-              <td align="center"><font face="Courier New" size="2">in, not in, is, is not, &lt;, &lt;=,&nbsp;  
+              <td align="center"><font face="Courier New" size="2">in, not in, is, is not, &lt;, &lt;=,&nbsp;<br />
                 &gt;,&nbsp; &gt;=,<br>
                 &lt;&gt;, !=, ==</font></td>
               <td>Comparisons, membership, identity</td>
             </tr>
-            <tr>              
+            <tr><br />
                <td align="center"><font face="Courier New" size="2">not <i>x</i></font></td>
               <td>Boolean NOT</td>
             </tr>
@@ -874,7 +880,7 @@ on a computer use a &ldquo;precedence&rdquo; process.</p>
               <td>Lambda expression</td>
             </tr>
             </tbody>
-</table>
+</table></p>
 
 <p>So we can use parens to order.  You will notice in the table that they are at the top of the list.</p>
 
