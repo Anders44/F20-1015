@@ -2,6 +2,14 @@
 
 # Lecture 17 - Object Homework
 
+[More on Objets and HeatPad - Homework  -  https://youtu.be/BtZhlpXS8b0]( https://youtu.be/BtZhlpXS8b0)<br>
+[An object used to implement a Binary Tree - https://youtu.be/eRMPnPVDaBs](https://youtu.be/eRMPnPVDaBs)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[More on Objets and HeatPad - Homework ](http://uw-s20-2015.s3.amazonaws.com/1015-L-17-pt1-objects-and-heatpad.mp4)<br>
+[An object used to implement a Binary Tree](http://uw-s20-2015.s3.amazonaws.com//Users/philip/Desktop/1015-L-17-pt2-tree-demo.mp4)<br>
+
 Our "van" system has a heater, cooler and batteries - and we can run it.   Our next step is to take advantage of 
 a little bit of free energy.  Remember that before the voltage on the solar panels is 0.4 volts higher than the
 voltage on the batteries the solar charger can not charge.   On cold days we can take advantage of this early
