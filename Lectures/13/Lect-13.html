@@ -712,6 +712,14 @@ ol {
 
 <h2>YouTube</h2>
 
+<p><a href="https://youtu.be/uaZQGlWs3eA">Intro - Functions - https://youtu.be/uaZQGlWs3eA</a><br>
+<a href="https://youtu.be/KrD_3d4s6AM">Example Functions - https://youtu.be/KrD_3d4s6AM</a><br></p>
+
+<p>From Amazon S3 - for download (same as youtube videos)</p>
+
+<p><a href="http://uw-s20-2015.s3.amazonaws.com/1015-L-13-Functions-pt1.mp4">Intro - Functions</a><br>
+<a href="http://uw-s20-2015.s3.amazonaws.com/1015-L-13-pt2-more-on-functions.mp4">Example Functions</a><br></p>
+
 <h2>Why Functions are Important</h2>
 
 <ol>
@@ -724,6 +732,99 @@ ol {
 <p>Building a better &ldquo;language&rdquo; out on top of the existing language.
 Your &ldquo;new&rdquo; language is the set of actions (verbs) that you can
 apply to the problem at hand.</p>
+
+<h3>Code Reuse</h3>
+
+<p>For example you want a function that performs a calculation or
+set of operations.</p>
+
+<h3>Testing</h3>
+
+<p>There are two kinds of functions - pure means that it has no
+side effects.  There are languages that implement &ldquo;pure&rdquo; functions
+an no other kind - like F# and Haskell.  If you are to build pure
+functions in Python - you have to make certain that they don&rsquo;t
+have an side effects.</p>
+
+<h3>Examples of functions</h3>
+
+<pre><code>
+##############################
+def f1 ( a, b, c ):
+    return a+b*c
+
+x1 = f1 ( 2, 3, 4 )
+print ( f&quot;x1={x1}&quot; )
+
+##############################
+def f2 ( a, b, c=10 ):
+    return a+b*c
+
+x1 = f2 ( 2, 3 )
+print ( f&quot;x1={x1}&quot; )
+
+##############################
+def f3 ( *a ):
+    t = 0
+    for x in a:
+        t = t + x
+    return t
+
+x1 = f3 ( 2, 3, 4, 5 )
+print ( f&quot;x1={x1}&quot; )
+
+
+##############################
+def insulation ( w=15, l=47, q=15 ):
+    tw_f=9
+    tw_i=6
+    tl=16
+    sq_in = ( tw_f*12 + tw_i ) * ( tl * 12 )
+    print ( f&quot;sq in for studio {sq_in}&quot; )
+
+    sq_in_pack = w * l * q
+    packs = sq_in / sq_in_pack
+    return packs
+
+ii = insulation ( )
+print ( f&quot;packs needed {ii}&quot; )
+
+
+##############################
+
+# Accessing a global value - a &quot;Non-Pure&quot; fucntion with side effects
+
+a = 4
+b = 2
+
+def hard_to_test ( ) :
+    global a, b
+    a = ( a + 2 ) % 5
+    return b + a
+
+
+x1 = hard_to_test() 
+print ( f&quot;hard_to_test = {x1} first run&quot; )
+
+x1 = hard_to_test() 
+print ( f&quot;hard_to_test = {x1} 2nd run &quot; )
+
+x1 = hard_to_test() 
+print ( f&quot;hard_to_test = {x1} third run&quot; )
+
+x1 = hard_to_test() 
+print ( f&quot;hard_to_test = {x1} forth run&quot; )
+
+x1 = hard_to_test() 
+print ( f&quot;hard_to_test = {x1} fifth run&quot; )
+
+x1 = hard_to_test() 
+print ( f&quot;hard_to_test = {x1} sixth run&quot; )
+
+x1 = hard_to_test() 
+print ( f&quot;hard_to_test = {x1} seventh run&quot; )
+
+</code></pre>
 
 </div>
 
