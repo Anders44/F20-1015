@@ -7,6 +7,14 @@ m4_changequote(`[[[',`]]]')
 
 # Lecture 18 - Operators and other stuff
 
+[Operators Part 1 - https://youtu.be/rQGaP2XJL_8](https://youtu.be/rQGaP2XJL_8)<br>
+[Operators Part 2 - https://youtu.be/p8sPI8_bVC8](https://youtu.be/p8sPI8_bVC8)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Operators Part 1](http://uw-s20-2015.s3.amazonaws.com/1015-L-18-pt1-operators.mp4)<br>
+[Operators Part 2](http://uw-s20-2015.s3.amazonaws.com/1015-L-18-pt2-operators.mp4)<br>
+
 This is kind of the "stuff" that is in python - with a few exceptions.
 
 We need to cover some aerators.  We have used
@@ -62,7 +70,7 @@ on a computer use a "precedence" process.
               <td>Attribute reference</td>
             </tr>
             <tr>
-              <td align="center"><font face="Courier New" size="2">**</font></td>
+              <td align="center"><font face="Courier New" size="2">`**`</font></td>
               <td>Exponentiation</td>
             </tr>
             <tr>
@@ -74,13 +82,11 @@ on a computer use a "precedence" process.
               <td>Positive, negative</td>
             </tr>
             <tr>
-              <td align="center"><font face="Courier New" size="2">*, /,
-              %</font></td>
-              <td>Multiplication, division, remainder </td>
+              <td align="center"><font face="Courier New" size="2">`*`, /,%,//</font></td>
+              <td>Multiplication, division, remainder, integer devide </td>
             </tr>
             <tr>
-              <td align="center"><font face="Courier New" size="2">+,
-              -</font></td>
+              <td align="center"><font face="Courier New" size="2">+,-</font></td>
               <td>Addition, subtraction</td>
             </tr>
             <tr>
