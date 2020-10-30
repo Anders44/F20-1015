@@ -1,4 +1,6 @@
 """
+Homework - in this comment add your name 
+
 Main program : Batter Management System
 ---------------------------------------
 
@@ -16,6 +18,7 @@ import output_switch
 import fan_switch
 import heater_switch
 import ac_switch
+# Homework - Import the class
 
 import simulated_system
 
@@ -37,13 +40,13 @@ world_state = {
 bat_min_temp = 35
 bat_max_temp = 90
 
-raw_solar_on = 6        # Min voltage where solar will be run to heating pad.
+raw_solar_on = 3        # Min voltage where solar will be run to heating pad.       # hw-note
 raw_solar_off = 15.0    # Max voltage where solar will be run to heating pad.
 head_pad_offset = 0.4    # Voltage where we should turn off heat pad.
 
 # print ( f"{world_state}" )
 
-fn = "data.1.csv"
+fn = "data.2.csv"
 if len(sys.argv) > 1 :
     fn = sys.argv[1]
 
@@ -55,6 +58,7 @@ output = output_switch.output_switch()
 fan = fan_switch.fan_switch()
 heater = heater_switch.heater_switch()
 ac = ac_switch.ac_switch()
+# Homework - Create the instance of the class
 
 simulated_system.system_init ( world_state )
 
@@ -96,7 +100,7 @@ with open(fn, 'r') as read_ref:
     ii = 1
     while ii < len(list_of_tuples):
         list_of_tuples[ii] = ( int(list_of_tuples[ii][0]), int(list_of_tuples[ii][1]), int(list_of_tuples[ii][2]), int(list_of_tuples[ii][3]),
-        float(list_of_tuples[ii][4]), float(list_of_tuples[ii][5]) )
+        float(list_of_tuples[ii][4]), float(list_of_tuples[ii][5]), float(list_of_tuples[ii][6]) )              
         ii = ii + 1
 
     # display after concerting int data.
@@ -118,6 +122,7 @@ with open(fn, 'r') as read_ref:
         world_state[ "bat_temp:0"    ] = list_of_tuples[ii][1]
         world_state[ "air_temp:0"    ] = list_of_tuples[ii][2]
         world_state[ "usage:0"       ] = list_of_tuples[ii][5]
+        world_state[ "raw_solar:0"   ] = list_of_tuples[ii][6]
         
 
 
@@ -125,38 +130,52 @@ with open(fn, 'r') as read_ref:
         # Main Processing                                              #
         ################################################################
 
+        # Homework - create the if that turns on the heating pad if the correct criteria are met - 1st 2 rows of data should turn the pad on.
         if world_state[ "bat_temp:0" ] < bat_min_temp and world_state[ "solar_avail:0" ] > world_state[ "bat_level:0" ]:
             if charger.isOn(): # If On... Turn Off Charger
                 charger.turnOff()
+            # Homework - remember to turn the heating pad off in all the other states.
             heater.turnOn() # Turn On Heater
             fan.turnOff() # Turn Off Fan
             ac.turnOff() # Turn Off AC
-            print ( "case 1" )
+            print ( "case 1 - heater " )
 
         elif world_state[ "bat_temp:0" ] > bat_max_temp and world_state[ "bat_temp:0" ] > world_state[ "air_temp:0" ] and world_state[ "air_temp:0" ] < ( bat_max_temp - 10 ) :
             if charger.isOn(): # If On... Turn Off Charger
                 charger.turnOff()
+            # Homework - remember to turn the heating pad off in all the other states.
             fan.turnOn() # Turn On Fan
             ac.turnOff() # Turn Off AC
             heater.turnOff() # Turn Off Heater
-            print ( "case 2" )
+            print ( "case 2 - Fan On" )
 
         elif world_state[ "bat_temp:0" ] > bat_max_temp and world_state[ "bat_temp:0" ] > world_state[ "air_temp:0" ] :
             if charger.isOn(): # If On... Turn Off Charger
                 charger.turnOff()
+            # Homework - remember to turn the heating pad off in all the other states.
             fan.turnOff() # Turn Off Fan
             ac.turnOn() # Turn On AC
             heater.turnOff() # Turn Off Heater
-            print ( "case 3" )
+            print ( "case 3 - AC On" )
 
         elif world_state[ "solar_avail:0" ] > world_state[ "bat_level:0" ] and world_state[ "bat_temp:0" ] >= bat_min_temp and world_state[ "bat_temp:0" ] <= bat_max_temp :
             charger.turnOn() # If Off... Turn On Charger
-            print ( "case 4" )
+            # Homework - remember to turn the heating pad off in all the other states.
+            fan.turnOff() # Turn Off Fan
+            ac.turnOn() # Turn On AC
+            heater.turnOn() # 
+            print ( "case 4 - just charge it" )
 
         else:
             #  { 'bat_level:0': 12.4, 'solar_avail:0': 0, 'bat_temp:0': 28, 'air_temp:0': 25, 'usage:0': 0.2}
             # Report Possible Error 
             print ( f"case 5 - nothing to do, {world_state}" )
+            # Homework - remember to turn the heating pad off in all the other states.
+            if charger.isOn(): # If On... Turn Off Charger
+                charger.turnOff()
+            fan.turnOff() # Turn Off Fan
+            ac.turnOn() # Turn On AC
+            heater.turnOff() # Turn Off Heater
 
 
         
