@@ -35,7 +35,7 @@ window.
 
 You will need to use [github.com/Univ-Wyo-Education/F20-1015](github.com/Univ-Wyo-Education/F20-1015)
 to get the files for this assignment.  Clone the class files and
-do your work in the directory .../Assignments/07.   To do this you will need to start Visual Studio Code
+do your work in the directory .../Assignments/06.   To do this you will need to start Visual Studio Code
 and tell it to navigate to a directory, then create a project in that directory.   The class lecture
 will walk through this process.
 
