@@ -7,6 +7,14 @@ m4_changequote(`[[[',`]]]')
 
 # Lecture 19 - Building our game.
 
+[Install for Game - https://youtu.be/Fm3Ncly1ssE](https://youtu.be/Fm3Ncly1ssE)<br>
+[Game Overview - https://youtu.be/wU77inWHpDs](https://youtu.be/wU77inWHpDs)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Install for Game](http://uw-s20-2015.s3.amazonaws.com/1015-L-19-pt1.mp4)<br>
+[Game Overview](http://uw-s20-2015.s3.amazonaws.com/1015-L-19-pt2-run-game.mp4)<br>
+
 The space invaders  game is in Chapter 12, 13, 14 in the book.   You can access the code at [https://github.com/ehmatthes/pcc](https://github.com/ehmatthes/pcc).
 
 on Mac or Linux in a dermal:
@@ -30,11 +38,7 @@ C:\Projects\> cd pcc
 
 Basically all the code is there.  So let's get it running using the VSCode tool.
 
-xyzzy - Example
-xyzzy - Example
-xyzzy - Example
-xyzzy - Example
-xyzzy - Example
+Demo of using VS Code for hello-ty.py and the game.
 
 Let's walk through the code.  We will need to have a good understanding of how the
 code works to integrate it with TensorFlow.
