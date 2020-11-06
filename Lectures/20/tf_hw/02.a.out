@@ -1,0 +1,25 @@
+ python 02.py
+2020-11-06 06:00:28.556549: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-06 06:00:28.556570: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11493376/11490434 [==============================] - 1s 0us/step
+2020-11-06 06:00:31.137481: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-11-06 06:00:31.834210: E tensorflow/stream_executor/cuda/cuda_driver.cc:314] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-11-06 06:00:31.834287: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (wabl001): /proc/driver/nvidia/version does not exist
+2020-11-06 06:00:31.834970: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-06 06:00:31.875480: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2600000000 Hz
+2020-11-06 06:00:31.876667: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5591cb294450 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-06 06:00:31.876690: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch 1/5
+1875/1875 [==============================] - 1s 505us/step - loss: 0.2912 - accuracy: 0.9164
+Epoch 2/5
+1875/1875 [==============================] - 1s 501us/step - loss: 0.1370 - accuracy: 0.9593
+Epoch 3/5
+1875/1875 [==============================] - 1s 504us/step - loss: 0.1054 - accuracy: 0.9685
+Epoch 4/5
+1875/1875 [==============================] - 1s 505us/step - loss: 0.0848 - accuracy: 0.9739
+Epoch 5/5
+1875/1875 [==============================] - 1s 506us/step - loss: 0.0712 - accuracy: 0.9779
+313/313 - 0s - loss: 0.0727 - accuracy: 0.9774
+
