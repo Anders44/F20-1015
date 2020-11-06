@@ -1,5 +1,12 @@
 # Lecture 20 - Tensor Flow Example
 
+[TensorFlow First Example - https://youtu.be/rAQSkZ16GXo](https://youtu.be/rAQSkZ16GXo)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[TensorFlow First Example](http://uw-s20-2015.s3.amazonaws.com/1015-L-20-tensor-flow-pt1.mp4)<br>
+
+
 ## Applications of Machine Learning
 
 [https://www.bbc.com/news/technology-54780460  Sars-Cov-2 (COVID-19) identified from sound of cough](https://www.bbc.com/news/technology-54780460)
