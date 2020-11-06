@@ -1,0 +1,43 @@
+ % python 05.py
+2020-11-06 08:12:51.363726: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-11-06 08:12:51.363750: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
+32768/29515 [=================================] - 0s 2us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
+26427392/26421880 [==============================] - 1s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz
+8192/5148 [===============================================] - 0s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
+4423680/4422102 [==============================] - 0s 0us/step
+2020-11-06 08:22:20.738553: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-11-06 08:22:21.511323: E tensorflow/stream_executor/cuda/cuda_driver.cc:314] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2020-11-06 08:22:21.511409: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (wabl001): /proc/driver/nvidia/version does not exist
+2020-11-06 08:22:21.512013: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-06 08:22:21.539519: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2600000000 Hz
+2020-11-06 08:22:21.541106: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x559bf1fd8ec0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-06 08:22:21.541174: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Epoch 1/10
+1875/1875 [==============================] - 1s 500us/step - loss: 0.4966 - accuracy: 0.8253
+Epoch 2/10
+1875/1875 [==============================] - 1s 522us/step - loss: 0.3766 - accuracy: 0.8634
+Epoch 3/10
+1875/1875 [==============================] - 1s 509us/step - loss: 0.3373 - accuracy: 0.8776
+Epoch 4/10
+1875/1875 [==============================] - 1s 502us/step - loss: 0.3115 - accuracy: 0.8864
+Epoch 5/10
+1875/1875 [==============================] - 1s 502us/step - loss: 0.2963 - accuracy: 0.8896
+Epoch 6/10
+1875/1875 [==============================] - 1s 502us/step - loss: 0.2834 - accuracy: 0.8950
+Epoch 7/10
+1875/1875 [==============================] - 1s 500us/step - loss: 0.2683 - accuracy: 0.9009
+Epoch 8/10
+1875/1875 [==============================] - 1s 501us/step - loss: 0.2575 - accuracy: 0.9039
+Epoch 9/10
+1875/1875 [==============================] - 1s 504us/step - loss: 0.2508 - accuracy: 0.9067
+Epoch 10/10
+1875/1875 [==============================] - 1s 500us/step - loss: 0.2392 - accuracy: 0.9106
+313/313 - 0s - loss: 0.3296 - accuracy: 0.8875
+
+Test accuracy: 0.887499988079071
+
