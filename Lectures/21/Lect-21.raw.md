@@ -1,6 +1,12 @@
 
 # Lecture 21 - How Neural Nets Work
 
+[Overview of Lecture 21 - https://youtu.be/lB6NjW5chyY](https://youtu.be/lB6NjW5chyY)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Overview of Lecture 21](http://uw-s20-2015.s3.amazonaws.com/1015-L-21-overview.mp4)<br>
+
 First how TensorFlow and neural networks work.  How do they learn.
 
 Rather than me doing a lecture on t his 3blue1brown has a set of four 20 minute
