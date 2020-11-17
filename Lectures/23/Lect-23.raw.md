@@ -5,7 +5,15 @@ m4_changequote(`[[[',`]]]')
 .half { height: 200px; }
 </style>
 
-# Lecture 16 - tensor flow - math 
+# Lecture 23 - tensor flow - math 
+
+[What is a Tensor - Math with TensorFlow Pt1 - https://youtu.be/8D9Xj4T8Nqc](https://youtu.be/8D9Xj4T8Nqc)<br>
+[What is a Tensor - Math with TensorFlow Pt2 - https://youtu.be/UwjPLG_3x5s](https://youtu.be/UwjPLG_3x5s)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[What is a Tensor - Math with TensorFlow Pt1](http://uw-s20-2015.s3.amazonaws.com/1015-L-23-pt1.mp4)<br>
+[What is a Tensor - Math with TensorFlow Pt2](http://uw-s20-2015.s3.amazonaws.com/1015-L-23-pt2.mp4)<br>
 
 What is A "tensor" and how will it "flow"?
 
@@ -87,9 +95,6 @@ First a 1x example:
 
 ![mat3.png](mat3.png)
 
-Now an example for a homework.
-
-![mak8.png](mat8.png)
 
 ## Matrices are useful
 
