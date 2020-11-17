@@ -721,8 +721,7 @@ ol {
 
 <p>A scalar is a 1-ish number.  This is the simplest kind of tensor:</p>
 
-<pre><code>
-import tensorflow as tf
+<pre><code>import tensorflow as tf
 
 x = tf.constant(-2.0, name=&quot;x&quot;, dtype=tf.float32)
 a = tf.constant(5.0, name=&quot;a&quot;, dtype=tf.float32)
@@ -792,8 +791,7 @@ print(&quot;Rank 2 Tensor C with shape={} and elements: \n{}&quot;.format(rank_2
 
 <p>matmul1.py:</p>
 
-<pre><code>
-import tensorflow as tf
+<pre><code>import tensorflow as tf
 
 # Matrix A and B with shapes (2, 3) and (3, 4)
 mmv_matrix_A = tf.ones([2, 3], name=&quot;matrix_A&quot;)
@@ -809,26 +807,28 @@ Matrix B: shape {2} \nelements: \n{3}\n
 Matrix C: shape {4} \nelements: \n{5}&quot;&quot;&quot;. \
     format(mmv_matrix_A.shape, mmv_matrix_A, mmv_matrix_B.shape, \
     mmv_matrix_B, matrix_multiply_C.shape, matrix_multiply_C))
+
 </code></pre>
 
-<p>output:</p>
+<p>output matmul1.out:</p>
 
-<pre><code>Matrix A: shape (2, 3)
-elements:
+<pre><code>Matrix A: shape (2, 3) 
+elements: 
 [[1. 1. 1.]
- [1. 1. 1.]]
+ [1. 1. 1.]] 
 
 
-Matrix B: shape (3, 4)
-elements:
+Matrix B: shape (3, 4) 
+elements: 
 [[1. 2. 3. 4.]
  [1. 2. 3. 4.]
  [1. 2. 3. 4.]]
 
-Matrix C: shape (2, 4)
-elements:
+Matrix C: shape (2, 4) 
+elements: 
 [[ 3.  6.  9. 12.]
  [ 3.  6.  9. 12.]]
+
 </code></pre>
 
 <p>Inner Dimentions must be the same.</p>
@@ -849,9 +849,13 @@ elements:
 
 <h2>Matrices are useful</h2>
 
-<p>Calculate Inverse of the Matrix in the Example:</p>
+<p>Calculate Inverse of a Matrix:</p>
 
-<pre><code>iim_matrix_A = tf.constant([[2, 3], [2, 2]], name='MatrixA', dtype=tf.float32)
+<p>inv.py:</p>
+
+<pre><code>import tensorflow as tf
+
+iim_matrix_A = tf.constant([[2, 3], [2, 2]], name='MatrixA', dtype=tf.float32)
 
 try:
     # Tensorflow function to take the inverse
@@ -873,6 +877,28 @@ except:
     print(&quot;&quot;&quot;A^-1 doesnt exist
     Matrix A: \n{} \n\nInverse of Matrix A: \n{} \n\nRHS: I: \n{}
     \nLHS: (A^(-1) A): \n{}&quot;&quot;&quot;.format(iim_matrix_A, inverse_matrix_A, iim_RHS, iim_LHS))
+
+</code></pre>
+
+<p>And the output:</p>
+
+<pre><code>A^-1 times A equals the Identity Matrix
+Matrix A: 
+[[2. 3.]
+ [2. 2.]] 
+
+Inverse of Matrix A: 
+[[-1.   1.5]
+ [ 1.  -1. ]] 
+
+RHS: I: 
+[[1. 0.]
+ [0. 1.]] 
+
+LHS: A^(-1) A: 
+[[1. 0.]
+ [0. 1.]]
+
 </code></pre>
 
 </div>

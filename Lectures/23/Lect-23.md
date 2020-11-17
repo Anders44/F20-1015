@@ -15,7 +15,6 @@ A scalar is a 1-ish number.  This is the simplest kind of tensor:
 
 
 ```
-
 import tensorflow as tf
 
 x = tf.constant(-2.0, name="x", dtype=tf.float32)
@@ -91,7 +90,6 @@ Let's multiply using TF:
 
 matmul1.py:
 ```
-
 import tensorflow as tf
 
 # Matrix A and B with shapes (2, 3) and (3, 4)
@@ -108,27 +106,29 @@ Matrix B: shape {2} \nelements: \n{3}\n
 Matrix C: shape {4} \nelements: \n{5}""". \
     format(mmv_matrix_A.shape, mmv_matrix_A, mmv_matrix_B.shape, \
     mmv_matrix_B, matrix_multiply_C.shape, matrix_multiply_C))
-```
-
-output:
 
 ```
-Matrix A: shape (2, 3)
-elements:
+
+output matmul1.out:
+
+```
+Matrix A: shape (2, 3) 
+elements: 
 [[1. 1. 1.]
- [1. 1. 1.]]
+ [1. 1. 1.]] 
 
 
-Matrix B: shape (3, 4)
-elements:
+Matrix B: shape (3, 4) 
+elements: 
 [[1. 2. 3. 4.]
  [1. 2. 3. 4.]
  [1. 2. 3. 4.]]
 
-Matrix C: shape (2, 4)
-elements:
+Matrix C: shape (2, 4) 
+elements: 
 [[ 3.  6.  9. 12.]
  [ 3.  6.  9. 12.]]
+
 ```
 
 Inner Dimentions must be the same.
@@ -150,9 +150,13 @@ Now an example for a homework.
 ## Matrices are useful
 
 
-Calculate Inverse of the Matrix in the Example:
+Calculate Inverse of a Matrix:
+
+inv.py:
 
 ```
+import tensorflow as tf
+
 iim_matrix_A = tf.constant([[2, 3], [2, 2]], name='MatrixA', dtype=tf.float32)
 
 try:
@@ -175,6 +179,29 @@ except:
     print("""A^-1 doesnt exist
     Matrix A: \n{} \n\nInverse of Matrix A: \n{} \n\nRHS: I: \n{}
     \nLHS: (A^(-1) A): \n{}""".format(iim_matrix_A, inverse_matrix_A, iim_RHS, iim_LHS))
+
+```
+
+And the output:
+
+```
+A^-1 times A equals the Identity Matrix
+Matrix A: 
+[[2. 3.]
+ [2. 2.]] 
+
+Inverse of Matrix A: 
+[[-1.   1.5]
+ [ 1.  -1. ]] 
+
+RHS: I: 
+[[1. 0.]
+ [0. 1.]] 
+
+LHS: A^(-1) A: 
+[[1. 0.]
+ [0. 1.]]
+
 ```
 
 

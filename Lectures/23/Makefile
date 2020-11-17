@@ -20,7 +20,7 @@ PY=  \
 	tf3.py \
 	tf5.py \
 	tf6.py \
-	tf7.py
+	tf7.py 
 
 
 all: ${FN}.html 

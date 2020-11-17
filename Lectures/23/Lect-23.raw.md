@@ -15,7 +15,7 @@ A scalar is a 1-ish number.  This is the simplest kind of tensor:
 
 
 ```
-m4_import(tf1.py)
+m4_include(tf1.py)
 ```
 
 Elements are positionaly identifiable.  So A at i,j,k is `Ai,j,k`.
@@ -51,7 +51,7 @@ Add of 2 matrix tensors
 add1.py:
 
 ```
-m4_import(add1.py)
+m4_include(add1.py)
 ```
 
 
@@ -66,13 +66,13 @@ Let's multiply using TF:
 
 matmul1.py:
 ```
-m4_import(matmul1.py)
+m4_include(matmul1.py)
 ```
 
 output matmul1.out:
 
 ```
-m4_import(matmul1.out)
+m4_include(matmul1.out)
 ```
 
 Inner Dimentions must be the same.
@@ -94,18 +94,18 @@ Now an example for a homework.
 ## Matrices are useful
 
 
-Calculate Inverse of the Matrix in the Example:
+Calculate Inverse of a Matrix:
 
 inv.py:
 
 ```
-m4_import(inv.py)
+m4_include(inv.py)
 ```
 
 And the output:
 
 ```
-m4_import(inv.out)
+m4_include(inv.out)
 ```
 
 
