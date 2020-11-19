@@ -1,0 +1,11 @@
+7 columns:
+
+1. price (the buying price of the car)
+2. maint ( the maintenance cost)
+3. doors (number of doors)
+4. persons (the seating capacity)
+5. lug_capacity (the luggage capacity)
+6. safety (how safe is the car)
+7. output (the condition of the car)
+
+
