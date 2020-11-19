@@ -1,0 +1,1145 @@
+<style>
+@font-face {
+	font-family: octicons-link;
+	src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.5;
+	color: #24292e;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+.markdown-body .pl-c {
+	color: #6a737d;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+	color: #005cc5;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+	color: #6f42c1;
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+	color: #24292e;
+}
+
+.markdown-body .pl-ent {
+	color: #22863a;
+}
+
+.markdown-body .pl-k {
+	color: #d73a49;
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+	color: #032f62;
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+	color: #e36209;
+}
+
+.markdown-body .pl-bu {
+	color: #b31d28;
+}
+
+.markdown-body .pl-ii {
+	color: #fafbfc;
+	background-color: #b31d28;
+}
+
+.markdown-body .pl-c2 {
+	color: #fafbfc;
+	background-color: #d73a49;
+}
+
+.markdown-body .pl-c2::before {
+	content: "^M";
+}
+
+.markdown-body .pl-sr .pl-cce {
+	font-weight: bold;
+	color: #22863a;
+}
+
+.markdown-body .pl-ml {
+	color: #735c0f;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+	font-weight: bold;
+	color: #005cc5;
+}
+
+.markdown-body .pl-mi {
+	font-style: italic;
+	color: #24292e;
+}
+
+.markdown-body .pl-mb {
+	font-weight: bold;
+	color: #24292e;
+}
+
+.markdown-body .pl-md {
+	color: #b31d28;
+	background-color: #ffeef0;
+}
+
+.markdown-body .pl-mi1 {
+	color: #22863a;
+	background-color: #f0fff4;
+}
+
+.markdown-body .pl-mc {
+	color: #e36209;
+	background-color: #ffebda;
+}
+
+.markdown-body .pl-mi2 {
+	color: #f6f8fa;
+	background-color: #005cc5;
+}
+
+.markdown-body .pl-mdr {
+	font-weight: bold;
+	color: #6f42c1;
+}
+
+.markdown-body .pl-ba {
+	color: #586069;
+}
+
+.markdown-body .pl-sg {
+	color: #959da5;
+}
+
+.markdown-body .pl-corl {
+	text-decoration: underline;
+	color: #032f62;
+}
+
+.markdown-body .octicon {
+	display: inline-block;
+	vertical-align: text-top;
+	fill: currentColor;
+}
+
+.markdown-body a {
+	background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+	outline-width: 0;
+}
+
+.markdown-body strong {
+	font-weight: inherit;
+}
+
+.markdown-body strong {
+	font-weight: bolder;
+}
+
+.markdown-body h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+.markdown-body img {
+	border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+.markdown-body hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+.markdown-body input {
+	font: inherit;
+	margin: 0;
+}
+
+.markdown-body input {
+	overflow: visible;
+}
+
+.markdown-body [type="checkbox"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.markdown-body * {
+	box-sizing: border-box;
+}
+
+.markdown-body input {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.markdown-body a {
+	color: #0366d6;
+	text-decoration: none;
+}
+
+.markdown-body a:hover {
+	text-decoration: underline;
+}
+
+.markdown-body strong {
+	font-weight: 600;
+}
+
+.markdown-body hr {
+	height: 0;
+	margin: 15px 0;
+	overflow: hidden;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #dfe2e5;
+}
+
+.markdown-body hr::before {
+	display: table;
+	content: "";
+}
+
+.markdown-body hr::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.markdown-body table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+	padding: 0;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body h1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.markdown-body h2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.markdown-body h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.markdown-body h4 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.markdown-body h5 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.markdown-body h6 {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.markdown-body p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+	margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+	x-list-style-type: lower-roman;
+	  list-style-type: decimal;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+	list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+	margin-left: 0;
+}
+
+.markdown-body code {
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 12px;
+}
+
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 12px;
+}
+
+.markdown-body .octicon {
+	vertical-align: text-bottom;
+}
+
+.markdown-body .pl-0 {
+	padding-left: 0 !important;
+}
+
+.markdown-body .pl-1 {
+	padding-left: 4px !important;
+}
+
+.markdown-body .pl-2 {
+	padding-left: 8px !important;
+}
+
+.markdown-body .pl-3 {
+	padding-left: 16px !important;
+}
+
+.markdown-body .pl-4 {
+	padding-left: 24px !important;
+}
+
+.markdown-body .pl-5 {
+	padding-left: 32px !important;
+}
+
+.markdown-body .pl-6 {
+	padding-left: 40px !important;
+}
+
+.markdown-body::before {
+	display: table;
+	content: "";
+}
+
+.markdown-body::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.markdown-body>*:first-child {
+	margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+	margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+	color: inherit;
+	text-decoration: none;
+}
+
+.markdown-body .anchor {
+	float: left;
+	padding-right: 4px;
+	margin-left: -20px;
+	line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+	outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.markdown-body hr {
+	height: 0.25em;
+	padding: 0;
+	margin: 24px 0;
+	background-color: #e1e4e8;
+	border: 0;
+}
+
+.markdown-body blockquote {
+	padding: 0 1em;
+	color: #6a737d;
+	border-left: 0.25em solid #dfe2e5;
+}
+
+.markdown-body blockquote>:first-child {
+	margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+	margin-bottom: 0;
+}
+
+.markdown-body kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font-size: 11px;
+	line-height: 10px;
+	color: #444d56;
+	vertical-align: middle;
+	background-color: #fafbfc;
+	border: solid 1px #c6cbd1;
+	border-bottom-color: #959da5;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 #959da5;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+	color: #1b1f23;
+	vertical-align: middle;
+	visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+	text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+	visibility: visible;
+}
+
+.markdown-body h1 {
+	padding-bottom: 0.3em;
+	font-size: 2em;
+	border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h2 {
+	padding-bottom: 0.3em;
+	font-size: 1.5em;
+	border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h3 {
+	font-size: 1.25em;
+}
+
+.markdown-body h4 {
+	font-size: 1em;
+}
+
+.markdown-body h5 {
+	font-size: 0.875em;
+}
+
+.markdown-body h6 {
+	font-size: 0.85em;
+	color: #6a737d;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body li {
+	word-wrap: break-all;
+}
+
+.markdown-body li>p {
+	margin-top: 16px;
+}
+
+.markdown-body li+li {
+	margin-top: 0.25em;
+}
+
+.markdown-body dl {
+	padding: 0;
+}
+
+.markdown-body dl dt {
+	padding: 0;
+	margin-top: 16px;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.markdown-body dl dd {
+	padding: 0 16px;
+	margin-bottom: 16px;
+}
+
+.markdown-body table {
+	display: block;
+	width: 100%;
+	overflow: auto;
+}
+
+.markdown-body table th {
+	font-weight: 600;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+	padding: 6px 13px;
+	border: 1px solid #dfe2e5;
+}
+
+.markdown-body table tr {
+	background-color: #fff;
+	border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+	background-color: #f6f8fa;
+}
+
+.markdown-body img {
+	max-width: 100%;
+	box-sizing: content-box;
+	background-color: #fff;
+}
+
+.markdown-body img[align=right] {
+	padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+	padding-right: 20px;
+}
+
+.markdown-body code {
+	padding: 0.2em 0.4em;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(27,31,35,0.05);
+	border-radius: 3px;
+}
+
+.markdown-body pre {
+	word-wrap: normal;
+}
+
+.markdown-body pre>code {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	word-break: normal;
+	white-space: pre;
+	background: transparent;
+	border: 0;
+}
+
+.markdown-body .highlight {
+	margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+	margin-bottom: 0;
+	word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+	padding: 16px;
+	overflow: auto;
+	font-size: 85%;
+	line-height: 1.45;
+	background-color: #f6f8fa;
+	border-radius: 3px;
+}
+
+.markdown-body pre code {
+	display: inline;
+	max-width: auto;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	line-height: inherit;
+	word-wrap: normal;
+	background-color: transparent;
+	border: 0;
+}
+
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+	color: #005cc5;
+	border-color: #005cc5;
+}
+
+.markdown-body kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	line-height: 10px;
+	color: #444d56;
+	vertical-align: middle;
+	background-color: #fafbfc;
+	border: solid 1px #d1d5da;
+	border-bottom-color: #c6cbd1;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 #c6cbd1;
+}
+
+.markdown-body :checked+.radio-label {
+	position: relative;
+	z-index: 1;
+	border-color: #0366d6;
+}
+
+.markdown-body .task-list-item {
+	list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+	margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+	margin: 0 0.2em 0.25em -1.6em;
+	vertical-align: middle;
+}
+
+.markdown-body hr {
+	border-bottom-color: #eee;
+}
+
+</style>
+<style>
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
+<div class="markdown-body">
+
+<style>
+.pagebreak { page-break-before: always; }
+.half { height: 200px; }
+</style>
+
+<h1>Lecture 25 - Classification</h1>
+
+<h2>When will we have self driving cars / Self driving trucks?</h2>
+
+<h3>Example of Clasification</h3>
+
+<p>Show video for 90 seconds.</p>
+
+<h3>Trucks First</h3>
+
+<p>According to BLS 5.1 million full time truck drivers in the US making on average $37,770.00 a year.  Multiply:
+$192,627,000,000.00
+-- That&rsquo;s a bunch.  Now burden the cost.   The employer has to pay health insurance, taxes
+on labor, workmen&rsquo;s comp etc.  1.42 is a fairly good estimate.   That gives us:
+$273,530,340,000.00
+(274 Billion US Dollars)  - that is in the US alone.   327 Million -  Europe is over 450
+million.</p>
+
+<p>I hypothesize that if you can build a self-driving truck for the US you can do it for France, etc.</p>
+
+<p>Suppose that you only manage long haul trucking - This is 87.2% of trucking.</p>
+
+<p>So just to fix this chunk:
+$238,518,456,480.00
+(239 Billion).</p>
+
+<p>&ldquo;A major factor for businesses in choosing self-driving trucks is greater fuel efficiency, which cuts fuel costs by at least 15%&hellip;&rdquo;
+&ldquo;There’s no question that autonomous trucks will be ready before autonomous cars.&rdquo;</p>
+
+<p>From: CNBC</p>
+
+<p>Right now fresh vegetables are being delivered from southern California to Texas using self driving on I-10.
+UPS is testing in Arizona.  JB Hunt is testing in Virginia etc&hellip;</p>
+
+<h3>Will truck driving jobs disappear?</h3>
+
+<p>Yes and No:  Some will - look at the vinyl LP industry - in 1980 150,000 jobs, today less than 5,000.
+Solving long-haul trucking will still leave local.   What will happen is the cost of shipping will drop and
+more shipping will take place.  There will be more local drivers that work with loading and un-loading.</p>
+
+<p>It won&rsquo;t happen all at once - but it will happen fast enough to be scary.  The 2008 recession saw 2.6
+million job lost in 2008.   50% of 5.1 million truck drives is around 2.6 million!</p>
+
+<h3>Cars - Taxies</h3>
+
+<p>Between Ford, Uber, Alphabet (Waymo), General Maters, Intel, Daimler Chrysler (Mercedes Benz), Toyota
+and Hyundai have put a combined $24 billion into self driving cars.</p>
+
+<p>Announcements from Ford say 2021, from GM and Toyota say 2023 for full self driving.  Google bought
+140,000 cars for Phoenix as self driving taxies that are now full level 3 - self driving right now.
+No driver at all.</p>
+
+<p>What is the &ldquo;real&rdquo; cost of ownership of a car - and can you live with just &ldquo;transpiration&rdquo; instead.
+Average payments on a car are $682.00 --- according to Motor Trends.  Add in $100 for maintenance,
+$100 for insurance, $200 for parking - this leaves out licensing - and you get around $1100.00 a month.  This is for around
+12 hours a week of driving time - so $90.00 per hour.   For example one LA person reports that they
+saved $423 a month by getting rid of 1 of 2 family cars and just using Uber 5 days a week to get to
+work.  Considering that the average American family reports a &ldquo;disposable&rdquo; income of $92.01 a month
+this is a &ldquo;huge&rdquo; raise.</p>
+
+<p>An average Uber trip ( from the annual report ) is $49.44.  So most people if they can pay for
+an average Uber would be better off to Uber into and back from work.</p>
+
+<p>Also Uber reports that 75% of costs are for drivers.  So if you are a self-driving company
+you can eliminate most of those costs.</p>
+
+<p>So let&rsquo;s look at the potential: Uber reports $49 a ride for 10 rides a day - $490.00 a day with 75% profit.
+That&rsquo;s $362 a day in profit.   Say 20 days a month for 5 day a week use - you may  get less
+or more on the weekends.</p>
+
+<p>That&rsquo;s $7350.00 a month in profit per car.  This leaves lots of time for maintenance - refiling etc.
+Waymo&rsquo;s purchase of 140000 cars works out to a little over $10 billion a year in profit for 1 US city
+for just taxies - think of all the commuters.</p>
+
+<p>If you think this is a lot - then use the $1.00 to $2.00 a mile that Uber charges and you get a
+monthly profit of more like $14,000.000 a month.</p>
+
+<p>As an individual purchasing a car that is used for a Uber-like service would have a quick
+payback - and - potentially a large profit for anybody that had a self-driving car that
+they could rent out.</p>
+
+<p>The entire concept of &ldquo;car ownership&rdquo; will change.  Cars set 92% idle.  Parking is expensive etc.
+If you own a self-driving car you may &ldquo;lease&rdquo; it out when you are not using it as a Taxi - Tesla
+has in the ownership/license agreement that they get a &ldquo;cut&rdquo; of the rental if you do this.</p>
+
+<p>Remember that big business that are super-successful, like Kodak, Blockbuster, Radio Shack
+are all &ldquo;gone&rdquo;.  So yea&hellip; This is going to have a huge impact.    GM and Ford are the 11th
+and 12th largest companies in the US.  If <sup>1</sup>&frasl;<sub>2</sub> of the market for cars goes away what happens?</p>
+
+<h3>Classification is the single most important algorithm</h3>
+
+<p>All self driving is based on using &ldquo;classification&rdquo; to identify objects.</p>
+
+<p>You may need to install</p>
+
+<pre><code>$ pip install -q pyyaml h5py
+</code></pre>
+
+<p>So that you can save in h5 format for the model.</p>
+
+<h3>train-model.py</h3>
+
+<pre><code>
+# From: https://www.tensorflow.org/tutorials/images/classification
+
+# mport packages
+# ----------------------
+# start by importing the required packages. The os package is used to read files
+# and directory structure, NumPy is used to convert python list to numpy array and
+# to perform required matrix operations and matplotlib.pyplot to plot the graph
+# and display images in the training and validation data.
+
+from __future__ import absolute_import, division, print_function, unicode_literals
+
+# Import Tensorflow and the Keras classes needed to construct our model.
+
+from datetime import datetime
+from packaging import version
+
+import tensorflow as tf
+
+print(&quot;TensorFlow version: &quot;, tf.__version__)
+assert version.parse(tf.__version__).release[0] &gt;= 2, &quot;This program TensorFlow 2.0 or above.&quot;
+
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Conv2D, Flatten, Dropout, MaxPooling2D
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Load data
+# ----------------------
+# Begin by downloading the dataset. This tutorial uses a filtered version of Dogs
+# vs Cats dataset from Kaggle. Download the archive version of the dataset and
+# store it in the &quot;/tmp/&quot; directory.
+
+_URL = 'https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip'
+
+path_to_zip = tf.keras.utils.get_file('cats_and_dogs.zip', origin=_URL, extract=True)
+
+PATH = os.path.join(os.path.dirname(path_to_zip), 'cats_and_dogs_filtered')
+
+# The dataset has the following directory structure:
+#
+#cats_and_dogs_filtered
+#|__ train
+#    |______ cats: [cat.0.jpg, cat.1.jpg, cat.2.jpg ....]
+#    |______ dogs: [dog.0.jpg, dog.1.jpg, dog.2.jpg ...]
+#|__ validation
+#    |______ cats: [cat.2000.jpg, cat.2001.jpg, cat.2002.jpg ....]
+#    |______ dogs: [dog.2000.jpg, dog.2001.jpg, dog.2002.jpg ...]
+# After extracting its contents, assign variables with the proper file path for
+# the training and validation set.
+
+train_dir = os.path.join(PATH, 'train')
+validation_dir = os.path.join(PATH, 'validation')
+
+train_cats_dir = os.path.join(train_dir, 'cats')  # our training cat pictures
+train_dogs_dir = os.path.join(train_dir, 'dogs')  # our training dog pictures
+validation_cats_dir = os.path.join(validation_dir, 'cats')  # our validation cat pictures
+validation_dogs_dir = os.path.join(validation_dir, 'dogs')  # our validation dog pictures
+
+# Understand the data
+# ----------------------
+# Let's look at how many cats and dogs images are in the training and
+# validation directory:
+
+num_cats_tr = len(os.listdir(train_cats_dir))
+num_dogs_tr = len(os.listdir(train_dogs_dir))
+
+num_cats_val = len(os.listdir(validation_cats_dir))
+num_dogs_val = len(os.listdir(validation_dogs_dir))
+
+total_train = num_cats_tr + num_dogs_tr
+total_val = num_cats_val + num_dogs_val
+
+print('total training cat images:', num_cats_tr)
+print('total training dog images:', num_dogs_tr)
+
+print('total validation cat images:', num_cats_val)
+print('total validation dog images:', num_dogs_val)
+print(&quot;--&quot;)
+print(&quot;Total training images:&quot;, total_train)
+print(&quot;Total validation images:&quot;, total_val)
+
+# For convenience, set up variables to use while pre-processing the dataset and
+# training the network.
+
+batch_size = 128
+epochs = 15
+IMG_HEIGHT = 150
+IMG_WIDTH = 150
+
+
+
+# Data preparation
+# ----------------------
+# Format the images into appropriately pre-processed floating point tensors
+# before feeding to the network
+
+# Read images from the disk.
+# Decode contents of these images and convert it into proper grid format as
+# per their RGB content.
+#
+# Convert them into floating point tensors.
+# Rescale the tensors from values between 0 and 255 to values between 0 and 1, as
+# neural networks prefer to deal with small input values. Fortunately, all these
+# tasks can be done with the ImageDataGenerator class provided by tf.keras. It can
+# read images from disk and preprocess them into proper tensors. It will also set
+# up generators that convert these images into batches of tensors—helpful when
+# training the network.
+
+train_image_generator = ImageDataGenerator(rescale=1./255) # Generator for our training data
+validation_image_generator = ImageDataGenerator(rescale=1./255) # Generator for our validation data
+
+# After defining the generators for training and validation images, the
+# flow_from_directory method load images from the disk, applies rescaling, and
+# resizes the images into the required dimensions.
+
+train_data_gen = train_image_generator.flow_from_directory(batch_size=batch_size,
+     directory=train_dir,
+     shuffle=True,
+     target_size=(IMG_HEIGHT, IMG_WIDTH),
+     class_mode='binary')
+
+val_data_gen = validation_image_generator.flow_from_directory(batch_size=batch_size,
+     directory=validation_dir,
+     target_size=(IMG_HEIGHT, IMG_WIDTH),
+     class_mode='binary')
+
+# Visualize training images
+# ----------------------
+# Visualize the training images by extracting a batch of images from the
+# training generator—which is 32 images in this example—then plot five of
+# them with matplotlib.
+
+sample_training_images, _ = next(train_data_gen)
+
+# The next function returns a batch from the dataset. The return value of next
+# function is in form of (x_train, y_train) where x_train is training features
+# and y_train, its labels. Discard the labels to only visualize the training
+# images.
+
+# This function will plot images in the form of a grid with 1 row and 5 columns
+# where images are placed in each column.
+def plotImages(images_arr):
+    fig, axes = plt.subplots(1, 5, figsize=(20,20))
+    axes = axes.flatten()
+    for img, ax in zip( images_arr, axes):
+        ax.imshow(img)
+        ax.axis('off')
+    plt.tight_layout()
+    plt.show()
+
+plotImages(sample_training_images[:5])
+
+
+
+# Revised with image manipulation.
+# ----------------------------
+
+# Apply all the previous augmentations. Here, you applied rescale, 45 degree
+# rotation, width shift, height shift, horizontal flip and zoom augmentation to
+# the training images.
+
+image_gen_train = ImageDataGenerator(
+                    rescale=1./255,
+                    rotation_range=45,
+                    width_shift_range=.15,
+                    height_shift_range=.15,
+                    horizontal_flip=True,
+                    zoom_range=0.5
+                    )
+
+train_data_gen = image_gen_train.flow_from_directory(batch_size=batch_size,
+                                                     directory=train_dir,
+                                                     shuffle=True,
+                                                     target_size=(IMG_HEIGHT, IMG_WIDTH),
+                                                     class_mode='binary')
+
+# Visualize how a single image would look five different times when passing these augmentations randomly to the dataset.
+
+augmented_images = [train_data_gen[0][0][0] for i in range(5)]
+plotImages(augmented_images)
+
+# Create validation data generator
+# Generally, only apply data augmentation to the training examples. In this case, only rescale the validation images and convert them into batches using ImageDataGenerator.
+
+image_gen_val = ImageDataGenerator(rescale=1./255)
+
+val_data_gen = image_gen_val.flow_from_directory(batch_size=batch_size,
+                                                 directory=validation_dir,
+                                                 target_size=(IMG_HEIGHT, IMG_WIDTH),
+                                                 class_mode='binary')
+
+
+
+# Create the model
+# ----------------------------
+# The model consists of three convolution blocks with a max pool layer in each
+# of them. There's a fully connected layer with 512 units on top of it that is
+# activated by a relu activation function. The model outputs class
+# probabilities based on binary classification by the sigmoid activation
+# function.
+
+model = Sequential([
+    Conv2D(16, 3, padding='same', activation='relu', input_shape=(IMG_HEIGHT, IMG_WIDTH ,3)),
+    MaxPooling2D(),
+    Conv2D(32, 3, padding='same', activation='relu'),
+    MaxPooling2D(),
+    Conv2D(64, 3, padding='same', activation='relu'),
+    MaxPooling2D(),
+    Flatten(),
+    Dense(512, activation='relu'),
+    Dense(1, activation='sigmoid')
+])
+
+
+# Compile the model
+# ----------------------------
+# For this tutorial, choose the ADAM optimizer and binary cross entropy loss
+# function. To view training and validation accuracy for each training epoch,
+# pass the metrics argument.
+
+model.compile(optimizer='adam',
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+
+# Model summary
+# ----------------------------
+# View all the layers of the network using the model's summary method:
+
+model.summary()
+
+# Train the model
+# ----------------------------
+# Use the fit_generator method of the ImageDataGenerator class to train the network.
+
+history = model.fit_generator(
+    train_data_gen,
+    steps_per_epoch=total_train // batch_size,
+    epochs=epochs,
+    validation_data=val_data_gen,
+    validation_steps=total_val // batch_size
+)
+
+
+# Visualize training results
+# ----------------------------
+# Now visualize the results after training the network.
+
+acc = history.history['accuracy']
+val_acc = history.history['val_accuracy']
+
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+epochs_range = range(epochs)
+
+plt.figure(figsize=(8, 8))
+plt.subplot(1, 2, 1)
+plt.plot(epochs_range, acc, label='Training Accuracy')
+plt.plot(epochs_range, val_acc, label='Validation Accuracy')
+plt.legend(loc='lower right')
+plt.title('Training and Validation Accuracy')
+
+plt.subplot(1, 2, 2)
+plt.plot(epochs_range, loss, label='Training Loss')
+plt.plot(epochs_range, val_loss, label='Validation Loss')
+plt.legend(loc='upper right')
+plt.title('Training and Validation Loss')
+plt.show()
+
+
+# Save Model
+# ----------------------------
+
+model.save('cats-and-dogs.h5')
+
+</code></pre>
+
+<h3>predict.py</h3>
+
+<pre><code> 1 from __future__ import absolute_import
+ 2 from __future__ import division
+ 3 from __future__ import print_function
+ 4 
+ 5 import tensorflow as tf
+ 6 import numpy as np
+ 7 from tensorflow import keras
+ 8 from tensorflow.keras.preprocessing import image
+ 9 
+10 model = keras.models.load_model ('cats-and-dogs.h5')
+11 
+12 IMG_HEIGHT = 150
+13 IMG_WIDTH = 150
+14 
+15 
+16 
+17 
+18 img = image.load_img('cat3.jpg', target_size = (IMG_WIDTH, IMG_HEIGHT))
+19 img1 = image.img_to_array(img)
+20 img2 = np.expand_dims(img1, axis = 0)
+21 
+22 pv = model.predict(img2)
+23 
+24 print ( 'prediction on cat3.jpg', pv )
+25 
+26 
+27 
+28 
+29 
+30 img = image.load_img('dog2.jpg', target_size = (IMG_WIDTH, IMG_HEIGHT))
+31 img1 = image.img_to_array(img)
+32 img2 = np.expand_dims(img1, axis = 0)
+33 
+34 pv = model.predict(img2)
+35 
+36 print ( 'prediction on dog2.jpg', pv )
+
+</code></pre>
+
+<h3>What is &ldquo;productivity&rdquo; in the economy.</h3>
+
+<p>Don&rsquo;t fall for silly arguments that we are all going to be out of jobs.</p>
+
+</div>
+
