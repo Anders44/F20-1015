@@ -7,6 +7,14 @@
 
 # Lecture 25 - Classification 
 
+[Part 1 - Classification with TensorFlow - https://youtu.be/_Md2wy6Uzx8](https://youtu.be/_Md2wy6Uzx8)<br>
+[Part 2 - Classification with TensorFlow - https://youtu.be/iDedralOejw](https://youtu.be/iDedralOejw)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Part 1 - Classification with TensorFlow](http://uw-s20-2015.s3.amazonaws.com/1015-L-24-pt1-clasification.mp4)<br>
+[Part 2 - Classification with TensorFlow](http://uw-s20-2015.s3.amazonaws.com/1015-L-24-pt2-clasification-code.mp4)<br>
+
 ## When will we have self driving cars / Self driving trucks?
 
 ### Example of Clasification
