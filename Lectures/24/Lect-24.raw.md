@@ -5,7 +5,7 @@ m4_changequote(`[[[',`]]]')
 .half { height: 200px; }
 </style>
 
-# Lecture 25 - Classification 
+# Lecture 24 - Classification 
 
 [Part 1 - Classification with TensorFlow - https://youtu.be/_Md2wy6Uzx8](https://youtu.be/_Md2wy6Uzx8)<br>
 [Part 2 - Classification with TensorFlow - https://youtu.be/iDedralOejw](https://youtu.be/iDedralOejw)<br>
