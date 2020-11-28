@@ -1,18 +1,15 @@
 
+# Homework  08
+
+200 pts - 2 Parts, 100pts each.
 
 
-## Homework  08
+Both parts are due the by Friday Dec 4th (officialy) but I will take the homeowrk up till the 11th of Dec.
 
-200 pts
 
 This should be an easy project.
 
-
-
-
-
-
-
+## Part 1 - Reading
 
 Read the articles 
 
@@ -30,3 +27,17 @@ save the file).
 
 
 
+## Part 2 - Go and Run a Learning Program
+
+Download and run the classification program - Train it (will take 15 mints on most laptop speed systems).
+
+
+
+Run a classification and dee if the results are what you expect.
+
+Write a sentence or two on the results and why you got the results that you got. (Good or bad results).
+
+
+
+
+                      
