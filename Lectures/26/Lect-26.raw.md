@@ -8,26 +8,64 @@ m4_changequote(`[[[',`]]]')
 
 # Lecture 26 - What goes wrong..., "artificial stupidity"
 
-<!--
- "Five Principles of AI Weirdness", including "AIs don't understand
- the problems you want them to solve" and "AIs take the path of least
- resistance to their programmed goal".[1] Shane gives many examples of AI
- "shortcuts", including the (possibly apocryphal) legend of an AI that
- appeared to reliably recognize tanks from photos, by noticing whether
- the photos were taken on a sunny or a cloudy day. Another of Shane's
- examples is a hypothetical scenario where a simulated AI evolved to
- keep people from entering a hazardous hallway during a fire emergency,
- learns the optimal strategy is to just kill everyone so they cannot enter
- the hallway. Because AI lacks general intelligence, Shane is skeptical
- of efforts to power self-driving cars or to detect online hate speech
- using artificial intelligence. Shane also pushes back against concerns
- artificial intelligence will replace people's jobs.[3]
--->
 
 1/2 of this lecture is from,  "You Look Like a Thing and I Love You" by
 Janelle Shane an AI Researcher, Janelle Shane.
 
+What do we see in AI's in the "movies" or with SciFi stories.   In the
+Terminator the AI "decides" that it is malicious and destroys humanity.
+AI is more of the intelligence level of an earth worm and it has no
+"malicious" intent.   What is has garbage-in garbage-out world.
+
+Image recognition in self driving cars is a really good example.
+Tesla "auto pilot" was designed in version 1 to drive on highways.
+So somebody turned on the auto pilot and used it on a city street.
+A truck pulled out sideways in front of the Tesla and the Tesla
+drove right into the truck.
+
+So it's concept of a "truck" one the front or back of a truck,
+or a truck passing on either side.   When a truck was not moving
+in front of it - it "recognized" the big-square object as an
+overhead road sign - and chose to drive "under" it.  OOps.
+
+Some years ago I was driving in New York wen a fairly large
+rock breaks off of a clif and comes rolling across the road.
+The rock was perhaps 5 or 10 tons.   I stomped on the breaks
+and managed to avoid the rock.    The question for these self
+driving systems is how many large rocks in traffic are they
+trained on?
+
+Another thing to ponder is the concept that the computer is
+always right.   Basically this is the fact that if you are
+filling out a form and the form has an entry field in it
+for a first name, middle initial, and a last name - what happens if you don't
+have one?  Lot's of folks don't have a middle name at all - or they have 2.
+Or what about my friend that his last name is just the letter, 'G'.
+Will the form allow single letter last names?  What about hyphenated
+last names (fairly common now).   I know of a family that the last
+name is Homer-Wambiem.    The modern reality is that it is not
+important what gets specified in the laws, what is real is what
+the computer programmers enter into the form or user interface.
+
+The same applies to AI.   One of the famous examples of failing to
+take into consideration different possibilities is an early self
+driving example from Google - now Waymo.  One of the blind employees
+was using a self driving car to get to work.  He was hungry so
+he told the card to go through the drive through on a restaurant.
+His intent was to order some food.  The car obediently slowed,
+turned into the drive through, drove through it without stopping
+and got back on the street.
+
+Some of this is a "communication" problem - what do you mean by
+"go through the drive through".  Some of it is an AI training
+problem - like the AI has to be trained to "stop" at the order
+and pickup windows.  Some of it is a "concept" problem.  The AI only knows what it
+is trained to do.  What it reveils is that the AI has no "malicios" intent - it is
+just trained to do what it is trained to do.
+
 ## Making Flavors
+
+Take 1600 real flavors - train an AI to produce better new flavors.
 
 ![These-flavors-are-not-delicious.png](These-flavors-are-not-delicious.png)
 
@@ -35,11 +73,12 @@ Janelle Shane an AI Researcher, Janelle Shane.
 
 You can train a NN to walk!
 
-Principals:
-1. A.I. takes the path of least resistance.
-2. A.I. dont understand the problem you are trying to solve.
-3. The danger of AI is not that it's too smart but it's not smart enough.
+A few principals:
 
+1. A.I. takes the path of least resistance.
+2. A.I. don't understand the problem you are trying to solve.
+3. The danger of AI is not that it's too smart but it's not smart enough.
+4. Limited data in = bazaar/weird results out.
 
 ## Police and Racism
 
