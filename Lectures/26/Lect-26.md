@@ -73,12 +73,24 @@ Take 1600 real flavors - train an AI to produce better new flavors.
 
 You can train a NN to walk!
 
+![Assemble-Robot-1.png](Assemble-Robot-1.png)
+
+<div class="pagebreak"></div>
+
+![Assemble-Robot-2.png](Assemble-Robot-2.png)
+
+
+<!--
+	3:30 to 3:59
+-->
+
 A few principals:
 
 1. A.I. takes the path of least resistance.
-2. A.I. don't understand the problem you are trying to solve.
+2. A.I. will not understand the problem you are trying to solve.
 3. The danger of AI is not that it's too smart but it's not smart enough.
 4. Limited data in = bazaar/weird results out.
+5. A.I. will not "steel" your job - it will transform it into a different world.
 
 ## Police and Racism
 
