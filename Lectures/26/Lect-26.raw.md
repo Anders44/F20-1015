@@ -8,6 +8,11 @@ m4_changequote(`[[[',`]]]')
 
 # Lecture 26 - What goes wrong..., "artificial stupidity"
 
+[Artifical Stupidity - https://youtu.be/lvuowxGHjUA](https://youtu.be/lvuowxGHjUA)<br>
+
+From Amazon S3 - for download (same as youtube videos)
+
+[Artifical Stupidity](http://uw-s20-2015.s3.amazonaws.com/1015-L-26.mp4)<br>
 
 1/2 of this lecture is from,  "You Look Like a Thing and I Love You" by
 Janelle Shane an AI Researcher, Janelle Shane.
