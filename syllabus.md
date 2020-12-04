@@ -355,3 +355,9 @@ during the semester. Class could be canceled or assignments due dates changed.
 # Copyright
 
 Copyright (C) University of Wyoming, 2020.
+
+
+# Late Notes:
+
+https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab1-Hello-ML-World.ipynb
+
